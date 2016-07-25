@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'MrEavesModOTBold';
+    src: url('mreavesmodot-bold.eot');
+    src: url('mreavesmodot-bold.eot') format('embedded-opentype'),
+         url('mreavesmodot-bold.woff2') format('woff2'),
+         url('mreavesmodot-bold.woff') format('woff'),
+         url('mreavesmodot-bold.ttf') format('truetype'),
+         url('mreavesmodot-bold.svg#MrEavesModOTBold') format('svg');
+}
+
+@font-face {
+    font-family: 'MrEavesModOTReg';
+    src: url('mreavesmodot-reg.eot');
+    src: url('mreavesmodot-reg.eot') format('embedded-opentype'),
+         url('mreavesmodot-reg.woff2') format('woff2'),
+         url('mreavesmodot-reg.woff') format('woff'),
+         url('mreavesmodot-reg.ttf') format('truetype'),
+         url('mreavesmodot-reg.svg#MrEavesModOTReg') format('svg');
+}
+@font-face {
+    font-family: 'MrsEavesXLSerifNarOTReg';
+    src: url('mrseavesxlsernar-reg.eot');
+    src: url('mrseavesxlsernar-reg.eot') format('embedded-opentype'),
+         url('mrseavesxlsernar-reg.woff2') format('woff2'),
+         url('mrseavesxlsernar-reg.woff') format('woff'),
+         url('mrseavesxlsernar-reg.ttf') format('truetype'),
+         url('mrseavesxlsernar-reg.svg#MrsEavesXLSerifNarOTReg') format('svg');
+}
+@font-face {
+    font-family: 'MrsEavesXLSerifNarOTRegItalic';
+    src: url('mrseavesxlsernar-regitalic.eot');
+    src: url('mrseavesxlsernar-regitalic.eot') format('embedded-opentype'),
+         url('mrseavesxlsernar-regitalic.woff2') format('woff2'),
+         url('mrseavesxlsernar-regitalic.woff') format('woff'),
+         url('mrseavesxlsernar-regitalic.ttf') format('truetype'),
+         url('mrseavesxlsernar-regitalic.svg#MrsEavesXLSerifNarOTRegItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'MrEavesSanOTReg';
+    src: url('mreavessanot-reg_2.eot');
+    src: url('mreavessanot-reg_2.eot') format('embedded-opentype'),
+         url('mreavessanot-reg_2.woff2') format('woff2'),
+         url('mreavessanot-reg_2.woff') format('woff'),
+         url('mreavessanot-reg_2.ttf') format('truetype'),
+         url('mreavessanot-reg_2.svg#MrEavesSanOTReg') format('svg');
+}

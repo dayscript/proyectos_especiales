@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MrsEavesXLSerifNarOTReg';
+    src: url('mrseavesxlsernar-reg.eot');
+    src: url('mrseavesxlsernar-reg.eot') format('embedded-opentype'),
+         url('mrseavesxlsernar-reg.woff2') format('woff2'),
+         url('mrseavesxlsernar-reg.woff') format('woff'),
+         url('mrseavesxlsernar-reg.ttf') format('truetype'),
+         url('mrseavesxlsernar-reg.svg#MrsEavesXLSerifNarOTReg') format('svg');
+}

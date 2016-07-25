@@ -1,0 +1,535 @@
+/*----------------------------------------------*/
+/*--------ESTILOS UNIVOS VICTOR GRIPPO----------*/
+/*----------------------------------------------*/
+/*---FONDOS----*/
+
+body.site-name-victor-grippo{
+	background:	url(/proyectos.banrepcultural.org/sites/default/files/fondos/Grippo_Fondo_01.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/Grippo_Fondo_01.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/Grippo_Fondo_01.jpg', sizingMethod='scale')";
+}
+
+
+body.site-name-victor-grippo .view-inicio .views-field-body .inicio-wrapper {
+  height: 370px;
+  overflow: auto;
+}
+body.domain-proyectos-banrepcultural-org-victor-gripo #content, 
+body.domain-proyectos-banrepcultural-org-victor-gripo {
+	font-family: 'TheinhardtRegular';
+	font-size:15px;
+}
+body.domain-proyectos-banrepcultural-org-victor-gripo #menu-bar{
+	font-size:15px;
+}
+body.domain-proyectos-banrepcultural-org-victor-gripo #main-content .views-field-body{
+	font-size:14px;
+}
+body.domain-proyectos-banrepcultural-org-victor-gripo h2, body.domain-proyectos-banrepcultural-org-victor-gripo #page-title{
+	font-family: 'TheinhardtRegular';
+	letter-spacing: 1px;
+	font-size:21px;
+	color:#DCCCA4;
+}
+body.domain-proyectos-banrepcultural-org-victor-gripo h3{
+	font-family: 'TheinhardtRegular';
+}
+body.domain-proyectos-banrepcultural-org-victor-gripo #header #block-search-form input[type="search"]{
+	background:rgba(154, 170, 115, 0.3) ;
+}
+body.domain-proyectos-banrepcultural-org-victor-gripo ul.nice-menu a, 
+body.domain-proyectos-banrepcultural-org-victor-gripo ul.nice-menu li.menuparent ul li a{
+	color:#A8B290 !important;
+}
+body.domain-proyectos-banrepcultural-org-victor-gripo #main-content,
+body.domain-proyectos-banrepcultural-org-victor-gripo ul.nice-menu li.menuparent ul li a:hover,
+body.domain-proyectos-banrepcultural-org-victor-gripo ul.nice-menu a:hover{
+	color: #C8C8C2 !important;
+}
+body.domain-proyectos-banrepcultural-org-victor-gripo ul.nice-menu li:hover,						/* primera lista */
+body.domain-proyectos-banrepcultural-org-victor-gripo ul.nice-menu-down li.menuparent:hover,		/* primera lista */
+body.domain-proyectos-banrepcultural-org-victor-gripo ul.nice-menu li.menuparent ul li:hover, 		/* segunda lista */
+body.domain-proyectos-banrepcultural-org-victor-gripo ul.nice-menu li.menuparent ul li ul li:hover{ /* tercera lista */
+ 	background: rgba(154, 170, 115, 0.8) !important;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC9AAA73,endColorstr=#CC9AAA73) !important;
+	color:#fff !important;
+}	
+body.domain-proyectos-banrepcultural-org-victor-gripo .horario{
+	font-family: 'TheinhardtRegularItalic';
+	font-size:12px;
+}
+body.domain-proyectos-banrepcultural-org-victor-gripo #footer-wrapper2 a,
+body.domain-proyectos-banrepcultural-org-victor-gripo #footer2 .footer_links{
+	color:#DCCCA4;
+}
+
+/*-- bloque logos --*/
+#block-block-27{
+  float: left;
+  width: 350px;
+  padding: 10px 0;
+  /* margin: 10px 0; */
+}
+#block-block-27 h2{
+	font-size: 12px;
+	color: #fff;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	top:0;
+	left:0;
+	text-transform: none;
+	position: relative;
+	border: none;
+}
+/*-- bloque footer --*/
+body.domain-proyectos-banrepcultural-org-victor-gripo .footerHorarios{
+	float:right;
+	margin-left:0;
+}
+body.domain-proyectos-banrepcultural-org-victor-gripo #block-block-12{
+	right:0;
+}
+
+
+/*----------------------------------------------*/
+/*--------ESTILOS UNIVOS HECTOR DIAZ----------*/
+/*----------------------------------------------*/
+/*- FONDOS -*/
+body.site-name-hernan-diaz{
+	background:	url(/proyectos.banrepcultural.org/sites/default/files/fondos/fondo_hdiaz.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/fondo_hdiaz.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/fondo_hdiaz.jpg', sizingMethod='scale')";
+}
+
+
+body.site-name-hernan-diaz .backstretch img{
+	top:-8% !important;
+}
+body.site-name-hernan-diaz #header-wrapper {
+  background: rgba(46, 42, 42, 0.85);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC2E2A2A,endColorstr=#CC2E2A2A);
+  height: 100px;
+}
+body.site-name-hernan-diaz #nav-wrapper {
+  height: 33px;
+  background: rgba(25, 19, 16, 0.9);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5191310,endColorstr=#E5191310);
+}
+body.site-name-hernan-diaz #footer-wrapper {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background: rgba(106, 44, 30, 0.7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B26A2C1E,endColorstr=#B26A2C1E);
+}
+body.site-name-hernan-diaz #footer-wrapper2 {
+  position: relative;
+  width: 100%;
+ background: rgba(25, 19, 16, 0.85);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5191310,endColorstr=#E5191310);
+}
+
+body.site-name-hernan-diaz #content, 
+body.site-name-hernan-diaz #main-content .views-field-body,
+body.site-name-hernan-diaz #menu-bar {
+	font-family: 'GothamBook';
+	font-size:13px;
+}
+body.site-name-hernan-diaz .view-inicio .views-field-body .inicio-wrapper{
+	height:370px;
+	overflow:auto;
+}
+body.site-name-hernan-diaz #main-content{
+	background: rgba(25, 19, 16, 0.85);
+	 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5191310,endColorstr=#E5191310);
+}
+body.site-name-hernan-diaz h2, 
+body.site-name-hernan-diaz #page-title{
+	font-family: 'GothamBook';
+	letter-spacing: 1px;
+	font-size:21px;
+	color: #985742;
+}
+body.site-name-hernan-diaz h3{
+	font-family: 'GothamBook';
+}
+body.site-name-hernan-diaz #main-content,
+body.site-name-hernan-diaz #footer-wrapper2 table{
+	color:#CACACA !important;
+}
+body.site-name-hernan-diaz #header #block-search-form input[type="search"]{
+	background: rgba(152, 87, 66, 0.5);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F985742,endColorstr=#7F985742);
+}
+body.site-name-hernan-diaz ul.nice-menu a, 
+body.site-name-hernan-diaz ul.nice-menu li.menuparent ul li a{
+	color:#fff !important;
+}
+body.site-name-hernan-diaz ul.nice-menu li.menuparent ul li a:hover,
+body.site-name-hernan-diaz ul.nice-menu a:hover{
+	color: #C8C8C2 !important;
+}
+body.site-name-hernan-diaz ul.nice-menu li:hover,
+body.site-name-hernan-diaz ul.nice-menu-down li.menuparent:hover{
+ 	background: rgba(152, 87, 66, 0.8) !important; 
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC985742,endColorstr=#CC985742) !important;
+	color:#fff !important;
+}
+/* segunda lista */
+ul.nice-menu li.menuparent ul {
+	background: rgba(25, 19, 16, 0.9);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5191310,endColorstr=#E5191310);
+	color:#fff;
+}
+body.site-name-hernan-diaz ul.nice-menu li.menuparent ul li:hover{
+ 	background: rgba(152, 87, 66, 0.8) !important;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC985742,endColorstr=#CC985742) !important;
+	color:#fff !important;
+}	
+/* tercera lista */
+body.site-name-hernan-diaz ul.nice-menu li.menuparent ul li ul li:hover{
+ 	background: rgba(152, 87, 66, 0.8) !important;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC985742,endColorstr=#CC985742) !important;
+	color:#fff !important;
+}
+body.site-name-hernan-diaz .horario{
+	font-family: 'GothamBook';
+	font-size:10px;
+	font-style: italic;
+}
+body.site-name-hernan-diaz #footer-wrapper2 a,
+body.site-name-hernan-diaz #footer2 .footer_links{
+	color:#848484;
+}
+body.site-name-hernan-diaz  #block-block-12{
+	right:inherit;
+}
+body.site-name-hernan-diaz .footerHorarios{
+	float:left;
+	margin-left:68px;
+}
+
+/*-------------------------------------------------------*/
+/*--------ESTILOS UNIDOS SEMANA DE LA GUITARRA----------*/
+/*-----------------------------------------------------*/
+body.site-name-semana-de-la-guitarra{
+	  background: url("../images/back_guitarra.jpg");
+}
+body.site-name-semana-de-la-guitarra #nav-wrapper {
+	background: #831A18;
+	height:40px;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF832418,endColorstr=#FF832418);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF832418,endColorstr=#FF832418);
+	zoom: 1;
+}
+body.site-name-semana-de-la-guitarra #header-wrapper {
+	background: #df9e44; /* Old browsers */
+	background: -moz-linear-gradient(top, #df9e44 56%, #dc902e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(56%,#df9e44), color-stop(100%,#dc902e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #df9e44 56%,#dc902e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #df9e44 56%,#dc902e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #df9e44 56%,#dc902e 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #df9e44 56%,#dc902e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df9e44', endColorstr='#dc902e',GradientType=0 ); /* IE6-9 */
+}
+body.site-name-semana-de-la-guitarra #footer-wrapper {
+	background: #8f2729;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF8F2729,endColorstr=#FF8F2729);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF8F2729,endColorstr=#FF8F2729);
+	zoom: 1;
+}
+body.site-name-semana-de-la-guitarra #footer-wrapper2 {
+	background: #7D2022;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF7D2022,endColorstr=#FF7D2022);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF7D2022,endColorstr=#FF7D2022);
+	zoom: 1;
+}
+
+body.site-name-semana-de-la-guitarra h1, 
+body.site-name-semana-de-la-guitarra #page-title{
+  font-family: 'Smythe';
+  text-transform: none;
+  letter-spacing: inherit;
+  font-size: 30px;
+  padding: 15px 0 15px 0;
+  color: #9b1b2a;
+  font-weight: normal;
+  border-bottom: 1px dotted #7A7876;
+}
+body.site-name-semana-de-la-guitarra h2{
+  font-family: 'Smythe';
+  text-transform: none;
+  letter-spacing: inherit;
+  font-size: 28px;
+  padding: 15px 0 15px 0;
+  color: #9b1b2a;
+  font-weight: normal;
+  border:0;
+  margin:0;
+}
+body.site-name-semana-de-la-guitarra h2.field-label{
+	font-family: 'Adelle';
+	font-size:13px !important;
+}
+body.site-name-semana-de-la-guitarra .field-name-field-imagen img{
+	border:3px solid #DACBB8 
+}
+body.site-name-semana-de-la-guitarra #main-content{
+	background:none;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#00000000);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000,endColorstr=#00000000);
+	zoom: 1;
+}
+
+/**---menu---**/
+body.site-name-semana-de-la-guitarra ul.nice-menu a,
+body.site-name-semana-de-la-guitarra ul.nice-menu span{
+	line-height:40px;
+	height:40px;
+	color:#DACBB8;
+}
+body.site-name-semana-de-la-guitarra ul.nice-menu li{
+	border:none;
+}
+body.site-name-semana-de-la-guitarra #content, 
+body.site-name-semana-de-la-guitarra #main-content .views-field-body,
+body.site-name-semana-de-la-guitarra #menu-bar {
+	font-family: 'Adelle';
+	font-size:14px;
+	color:#666666;
+}
+body.site-name-semana-de-la-guitarra ul.nice-menu li {
+	height:40px;
+}
+body.site-name-semana-de-la-guitarra ul.nice-menu ul a,
+body.site-name-semana-de-la-guitarra ul.nice-menu ul li{
+	line-height:33px;
+	height:33px;
+}
+body.site-name-semana-de-la-guitarra ul.nice-menu li:hover{
+	background:#761715;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF761715,endColorstr=#FF761715);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF761715,endColorstr=#FF761715);
+}
+body.site-name-semana-de-la-guitarra ul.nice-menu li.menuparent ul{
+	top:40px;
+	background:#761715 !important;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF761715,endColorstr=#FF761715) !important;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF761715,endColorstr=#FF761715) !important;
+}
+body.site-name-semana-de-la-guitarra ul.nice-menu li.menuparent ul li a{
+	color:#DACBB8 !important;
+}
+body.site-name-semana-de-la-guitarra ul.nice-menu li.menuparent ul li a:hover{
+	background:#dc902e !important;
+}
+body.site-name-semana-de-la-guitarra ul.nice-menu li.menuparent ul li{
+	border-top: 1px solid rgb(102, 21, 19);
+}
+	
+/*--- logo --*/
+body.site-name-semana-de-la-guitarra  #header #block-views-logos-block {
+  height: 80px;
+  width: 320px;
+  float: left;
+  padding: 10px 0;
+  margin: 0;
+  background: url(../images/guitarra.png) no-repeat 214px 0;
+}
+/*--- horario ---*/
+body.site-name-semana-de-la-guitarra .horario{
+  border-left: 1px solid rgb(188, 122, 36);
+  border-right: 1px solid rgb(188, 122, 36);
+  color:#831A18;
+}
+/*---- block search----*/
+body.site-name-semana-de-la-guitarra #header #block-search-form input[type="search"]{
+	  background: rgba(199, 131, 41, 1);
+	  
+}
+body.site-name-semana-de-la-guitarra #header #block-search-form input[type="submit"]{
+	background: url("/proyectos.banrepcultural.org/sites/default/files/icon_submitGuitarra.png") no-repeat;
+}
+/*---- redes sociales ---*/
+body.site-name-semana-de-la-guitarra .social-links li.twitter a {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/linksGuitarra.png) -22px 0px no-repeat;
+}
+body.site-name-semana-de-la-guitarra .social-links li.twitter a:hover {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/linksGuitarra.png) -22px -23px no-repeat;
+}
+body.site-name-semana-de-la-guitarra .social-links li.facebook a {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/linksGuitarra.png) 0px 0px no-repeat;
+}
+body.site-name-semana-de-la-guitarra .social-links li.facebook a:hover {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/linksGuitarra.png) 0px -23px no-repeat;
+}
+body.site-name-semana-de-la-guitarra .social-links li.google a {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/linksGuitarra.png) -43px 0px no-repeat;
+}
+body.site-name-semana-de-la-guitarra .social-links li.google a:hover {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/linksGuitarra.png) -43px -23px no-repeat;
+}
+/*----ARTISTA ----*/
+body.site-name-semana-de-la-guitarra .field-name-field-fecha-de-creaci-n,
+body.site-name-semana-de-la-guitarra .field-name-field-tema{
+	display:none;
+}
+/*--- ----*/
+
+
+/*-------------------------------------------------------*/
+/*-------------------- GRACIELA SACCO-------------------*/
+/*-----------------------------------------------------*/
+body.site-name-graciela-sacco{
+	background:	url(/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_inicio.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_inicio.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_inicio.jpg', sizingMethod='scale')";
+}
+body.site-name-graciela-sacco.section-la-artista{
+	background:	url(/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_Artista.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_inicio.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_inicio.jpg', sizingMethod='scale')";
+}
+body.site-name-graciela-sacco.section-exposicion{
+	background:	url(/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_exposicion.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_inicio.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_inicio.jpg', sizingMethod='scale')";
+}
+body.site-name-graciela-sacco.node-type-obra-coleccion{
+		background:	url(/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_02.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_02.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_02.jpg', sizingMethod='scale')";
+}
+body.site-name-graciela-sacco.section-sobre-su-obra{
+	background:	url(/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_03.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_03.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_03.jpg', sizingMethod='scale')";
+}
+body.site-name-graciela-sacco.section-programe-su-visita-0,
+body.site-name-graciela-sacco.section-servicios{
+	background:	url(/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_04.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_04.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_04.jpg', sizingMethod='scale')";
+}
+
+/**--contenidos --**/
+body.site-name-graciela-sacco #content, 
+body.site-name-graciela-sacco #main-content .views-field-body,
+body.site-name-graciela-sacco #menu-bar {
+	font-family: 'Dosis-Book';
+	  color: #C6C6C6;
+	  font-size: inherit;
+}
+body.site-name-graciela-sacco.node-type-obra-coleccion{
+	font-size:inherit;
+}
+body.site-name-graciela-sacco #menu-bar{
+	font-size:15px;
+}
+body.site-name-graciela-sacco h2, 
+body.site-name-graciela-sacco #page-title{
+  	font-family: 'Dosis-Semi';
+    color: #CCC;
+}
+body.site-name-graciela-sacco #header #block-search-form input[type="search"]{
+	background: rgba(118, 118, 118, 0.7);
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2767676,endColorstr=#B2767676);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2767676,endColorstr=#B2767676);
+	zoom: 1;
+}
+body.site-name-graciela-sacco #footer-wrapper2 a,
+body.site-name-graciela-sacco #footer2 .footer_links,
+body.site-name-graciela-sacco a{
+  color: #878787;
+}
+body.site-name-graciela-sacco a:hover{
+	color:#DBA555;
+}
+/**---menu---**/
+body.site-name-graciela-sacco ul.nice-menu a, 
+body.site-name-graciela-sacco ul.nice-menu li.menuparent ul li a,
+body.site-name-graciela-sacco ul.nice-menu a:hover, 
+body.site-name-graciela-sacco ul.nice-menu .menuparent.over a,
+body.site-name-graciela-sacco ul.nice-menu span,
+body.site-name-graciela-sacco ul.nice-menu span:hover{
+	color:#CCC;
+}
+body.site-name-graciela-sacco ul.nice-menu a:hover, 
+body.site-name-graciela-sacco ul.nice-menu .menuparent.over a,
+body.site-name-graciela-sacco ul.nice-menu span:hover{
+	color: #CCC;
+}
+body.site-name-graciela-sacco ul.nice-menu li:hover{
+	background: rgba(94, 94, 94, 0.9) !important;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E55E5E5E,endColorstr=#E55E5E5E) !important;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E55E5E5E,endColorstr=#E55E5E5E) !important;
+	zoom: 1;
+}
+body.site-name-graciela-sacco ul.nice-menu li.menuparent ul{
+	background: rgba(94, 94, 94, 0.9) !important;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E55E5E5E,endColorstr=#E55E5E5E) !important;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E55E5E5E,endColorstr=#E55E5E5E !important);
+	zoom: 1;
+}
+
+/*--- segunda lista ---*/
+
+body.site-name-graciela-sacco ul.nice-menu li.menuparent ul li:hover{
+	background: rgba(51,51,51,1) !important;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF333333,endColorstr=#FF333333) !important;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FF333333,endColorstr=#FF333333) !important;
+	zoom: 1;
+}	
+ul.nice-menu-down li li.menuparent {
+	background: rgba(40, 40, 40, 0.8) !important;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC282828,endColorstr=#CC282828) !important ;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC282828,endColorstr=#CC282828 !important);
+	zoom: 1;
+}
+/* tercera lista */
+body.site-name-graciela-sacco ul.nice-menu li.menuparent ul li:hover{
+	background: rgba(68,68,68,0.9) !important;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCDFB06B,endColorstr=#CCDFB06B);
+}
+body.site-name-graciela-sacco ul.nice-menu li.menuparent ul li ul li:hover{
+	background: rgba(94, 94, 94, 0.9) !important;
+	-ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E55E5E5E,endColorstr=#E55E5E5E);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E55E5E5E,endColorstr=#E55E5E5E);
+	zoom: 1;
+}
+.logoApoyan{
+	float: right;
+}
