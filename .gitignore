@@ -1,7 +1,23 @@
 # Ignore configuration files that may contain sensitive information.
-#sites/*/*settings*.php
+sites/*/*settings*.php
 
 # Ignore paths that contain generated content.
 files/
 sites/*/files
 sites/*/private
+durero
+graciela-sacco
+hernan-diaz
+imagen-regional
+johanna-calle
+la-voz-humana
+luis-roldan
+museo-del-oro
+museo-del-oro-tairona
+museo-etnografico
+odenbach
+proyecto-paz
+proyectos.banrepcultural.org
+sady-gonzalez
+semana-de-la-guitarra
+victor-grippo
