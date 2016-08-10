@@ -41,3 +41,15 @@
 		
 	});// fin document ready
 })(jQuery, Drupal, this, this.document);
+
+
+(function ($, Drupal, window, document, undefined) {
+	$(document).ready(function(){  	
+		var loc = window.location.pathname;
+		var res = loc.match(/sady-gonzalez/);
+		if(/sady-gonzalez/.test(loc)) {
+			$("#main-content").css('overflow','scroll');
+			$("#main-content").css('height','415px');
+		}
+	});
+})(jQuery, Drupal, this, this.document);

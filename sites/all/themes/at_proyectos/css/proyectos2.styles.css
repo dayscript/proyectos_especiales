@@ -10,7 +10,7 @@
 	color: #fff;
 	position:relative;
 	width:920px;
-}
+}	
 #main-content::-webkit-scrollbar {
     width: 8px;
 }
@@ -279,9 +279,9 @@ a{
 	margin-bottom: 20px;
 }
 .view-display-id-block_1 .views-row{
-	padding: 10px;
-	border: 1px solid #fff;
-	width: 250px;
+	//padding: 10px;
+	//border: 1px solid #fff;
+	//width: 250px;
 }
 .view-display-id-block_1 .count{
 	font-size: 24px;
@@ -302,4 +302,63 @@ a{
 
 .logoApoyan {
 	float: right;
+}
+
+.view-temas-expuestos .view-header {
+	float: left !important;
+    width: 48% !important;
+    margin-right: 4% !important;
+}
+
+.view-temas-expuestos .view-content {
+	float: left;
+    width: 48%;
+    margin: 0 auto;
+}
+
+.view-temas-expuestos .views-view-grid .cols-2 {
+	border: none;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    font-size: 11px;
+    line-height: 1.5;
+    margin: 0;
+    right: 0;
+}
+.view-temas-expuestos table {
+	border: none;
+}
+
+.view-temas-expuestos tbody {
+	font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    font-size: 11px;
+    line-height: 1.5;
+}
+.view-temas-expuestos tbody tr {
+	border-top: none !important;
+}	
+.view-temas-expuestos .row-1 .row-first {
+	border: 0px;
+}
+
+.view-temas-expuestos td .col-1 .col-first {
+	width: 50% !important;
+}
+
+.view-temas-expuestos .views-field-nothing {
+	text-align: center;
+}
+
+.view-temas-expuestos span a {
+	display: block;
+	text-decoration: none;
+}
+
+.view-temas-expuestos img {
+	    border: 3px solid rgb(61, 62, 62);
+
 }
