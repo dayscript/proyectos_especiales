@@ -381,10 +381,10 @@ position: absolute;
 /*--------------------------------*/
 /*--------- EXPOSICIONES ---------*/
 /*--------------------------------*/
-.exposicion .view-header{
+.exposicion .view-header, .view-id-expo .view-header{
 	width:100%;
 }
-.exposicion .view-content{
+.exposicion .view-content, .view-id-expo .view-content{
 	width:100%;
 }
 .node-type-obra-coleccion .group-left,

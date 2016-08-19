@@ -252,13 +252,160 @@ max-width:100%;
 	color: #727C32;
 	background: #A5B733;
 }
-@media only screen and (min-width: 1025px) {
+@media (max-width: 480px) {
+	#site-name {
+		line-height: 30px;
+		margin-top: 15px;
+	}
+	#site-name a:link {
+		font-size: 22px;
+	}
+}	
+@media (max-width: 999px) {
+	#page {
+		width: 100%;
+	}
+	#block-menu-menu-top-actividad-cultural {
+		display: none;
+	}
+	#block-search-form {
+		display: none;
+	}
+	#header {
+		width: 100% !important;
+		position: absolute !important;
+		top: 33px;
+		text-align: center;
+		display: block;
+		background-color: #000;
+		left: 0px;
+		width: 100%;
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+		background-image:none
+	}
+	#header #branding {
+		float: none;
+	}
+	#header #branding #site-name {
+		padding-top: 10px;
+		width: 100%;
+	}
+	#header #block-block-39 img{
+		position: absolute;
+		top: -29px;
+		z-index: 99999999999;
+		text-align: center;
+		height: 40px;
+		width: auto;
+	}
 	#content-column, .content-column, div.sidebar {
-    	float: left;
-    	clear: none;
+		margin-left: -30px;
+	}	
+	.sidebar-first .content-inner {
+		margin-top: 100px;
+	}
+	.content-inner {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}	
+	.front .content-inner {
+		width: 654px;
+	}
+	.not-front .content-inner {
+		width: 65%;
+	}
+	.not-front #main-content {
+		width: 100%;
+	}
+	.page-taxonomy .content-inner {
+		width: 654px;
+	}
+	.view-entradas-de-blog  .views-field-field-imagen-blog {
+		float: left;
+   		width: auto;
+	}
+
+	/*bloques*/
+	.region-sidebar-first {
+		width: 100% !important;
+		margin-left: 0% !important;
+	}
+	.region-sidebar-first .region-inner {
+		width: 234px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.region-sidebar-first .region-inner .block {
+		    background-color: #a5b733;
+		    border-radius: 10px 10px 10px 10px;
+		    -webkit-border-radius: 10px 10px 10px 10px;
+		    margin-top: 20px;
+		    padding: 20px;
+		    line-height: 20px;
+		    font-size: 13px;
+		    font-family: 'Open Sans',sans-serif !important;
+		    padding-top: 5px;
+		    border-bottom: 1px solid #fff;
+	}	
+	.region-sidebar-first  .block-content .view-id-Categorias {
+		border-bottom: 1px solid #fff;
+	}
+	.region-sidebar-first .region-inner h2 {
+		    padding-bottom: 15px;
+		    font-family: 'Open Sans',sans-serif !important;
+		    font-weight: 600;
+		    color: #FFF;
+		    text-transform: uppercase;
+		    font-size: 16px;
+		    border-bottom: none;
+	}
+	.region-sidebar-first .region-inner a {
+		    height: 23px;
+    		color: #FFF;
+	}
+	.region-sidebar-first .region-inner span {
+    		color: #FFF;
+	}
+	.region-sidebar-first #block-block-37 img {
+		margin: 0 8px;
+	}
+	#block-system-main iframe {
+    	width: 100% !important;
+	}
+
+	/*footer*/
+	#footer {
+		left: 0px;
+		width: 86%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}	
+@media (max-width: 1025px) {
+	#menu-bar{
+		display: none;
+	}		
+}
+@media (max-width: 1025px) {
+	#block-nice-menus-15 li  {
+		border-top: none;
+		background: #A5B733;
+		border: none;
+	}
+	#block-nice-menus-15 li a {
+		font-size: 16px;
+		font-family: 'Open Sans',sans-serif;
+		text-transform: uppercase;
+		color: #fff;
+		text-decoration: none;
+		font-weight: 600;
 	}
 }
-@media only screen and (min-width: 1025px) {
+#content-column, .content-column, div.sidebar {
+	float: left;
+	clear: none;
+}
 .sidebar-first .content-inner {
     margin-left: 29%;
     margin-right: 0;
@@ -308,7 +455,6 @@ ul.nice-menu span{
     padding-left: 0px;
     font-weight: 600;
 }
-
 ul.nice-menu li:hover{
 	background: rgba(223, 176, 107, 0.8);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCDFB06B,endColorstr=#CCDFB06B);
@@ -410,6 +556,16 @@ body.front.site-name-semana-de-la-guitarra .views-label-field-imagen{
 body.front.site-name-semana-de-la-guitarra .views-label-field-imagen img{
 	border:2px solid #DACBB8;
 }
+.page-tagclouds #main-content {
+	background-color: #a5b733;
+}
+.page-tagclouds #main-content #page-title {
+	color: #FFF;
+}
+.page-tagclouds #main-content a {
+	color: #FFF;
+}
+
 /*-------------*/
 /*========================================*/
 /*--------------- FOOTER -----------------*/

@@ -480,7 +480,8 @@ footer a{
 /*========================================*/
 .view-vista-temas .view-header,
 .view-exposicion .view-header,
-.exposicion .view-header{
+.exposicion .view-header,
+.view-id-expo .view-header{
 	float: left;
 	width: 48%;
 	margin-right:4%;
@@ -488,14 +489,16 @@ footer a{
 
 .view-vista-temas .view-content,
 .view-exposicion .view-content,
-.exposicion .view-content{
+.exposicion .view-content,
+.view-id-expo .view-content{
 	float: left;
 	width: 48%;
 	margin:0 auto;
 }
 .view-vista-temas table,
 .view-exposicion table,
-.exposicion table{
+.exposicion table,
+.view-id-expo table{
 	border:none;
 	float:right;
 	font-family: 'Roboto', sans-serif;
@@ -508,28 +511,33 @@ footer a{
 }
 .view-vista-temas .views-field,
 .view-exposicion .views-field,
-.exposicion .views-field{
+.exposicion .views-field,
+.view-id-expo .views-field{
 	text-align:center;
 }
 .view-vista-temas img,
 .view-exposicion img, 
-.exposicion img{
+.exposicion img,
+.view-id-expo img{
 border: 3px solid rgb(61, 62, 62);
 }
 .view-vista-temas table tbody tr,
 .view-exposicion table tbody tr, 
-.exposicion table tbody tr{
+.exposicion table tbody tr,
+.view-id-expo table tbody tr{
 	border:0px;
 }
 .view-vista-temas table tbody td,
 .view-exposicion table tbody td,
-.exposicion table tbody td{
+.exposicion table tbody td,
+.view-id-expo table tbody td{
 	width:50%;
 	vertical-align:top;
 }
 .view-vista-temas h3,
 .view-exposicion h3, 
-.exposicion h3{
+.exposicion h3,
+.view-id-expo h3{
 	text-align:left;
 }
 /*----- responsive grid ------*/
@@ -923,14 +931,3 @@ footer .block.logoApoyan{
 	margin:10px 0;
 	float: right;
 }
-
-
-
-
-
-/*============================================*/
-/*-------------- DURERO-HEADER ---------------*/
-/*=============================================*/
-
-#page-wrapper #page #header-wrapper{
-	background: rgba(50, 50, 50, 0.8);}
