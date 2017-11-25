@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'InfoDispRegular-Roman';
+  src: url('InfoDispRegular-Roman.eot?#iefix') format('embedded-opentype'),  url('InfoDispRegular-Roman.otf')  format('opentype'),
+	     url('InfoDispRegular-Roman.woff') format('woff'), url('InfoDispRegular-Roman.ttf')  format('truetype'), url('InfoDispRegular-Roman.svg#InfoDispRegular-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

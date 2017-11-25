@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'RelatoSansOT-Bold';
+  src: url('RelatoSansOT-Bold.eot?#iefix') format('embedded-opentype'),  url('RelatoSansOT-Bold.otf')  format('opentype'),
+	     url('RelatoSansOT-Bold.woff') format('woff'), url('RelatoSansOT-Bold.ttf')  format('truetype'), url('RelatoSansOT-Bold.svg#RelatoSansOT-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
