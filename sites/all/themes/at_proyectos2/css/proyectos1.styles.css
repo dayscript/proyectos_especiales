@@ -1,0 +1,1800 @@
+/*:root * { filter: progid:DXImageTransform.Microsoft.gradient(enabled='false') !important; } 
+.lt-ie9 #content {font-size:14px;} 
+.lt-ie9 .front .views-field-body{font-size:14px;}
+*/
+@font-face{
+  font-family: "Univers";
+  src: url('fonts/fonts-johanna-calle/univers-light-normal.ttf') format('truetype');
+  }
+
+body{
+	font-family: 'Libre Baskerville', serif;
+}
+#content-wrapper{
+	line-height:1.5em;
+}
+.item-list .pager{
+	padding-top:10px;
+}
+h2, #page-title{
+	color: #C5A77D;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height:24px;
+	/*font-family: 'Expletus Sans', cursive;*/
+	padding:15px 0 5px 0;
+	margin:0 0 22px 0;
+	border-bottom: 1px solid rgb(88,88,88);
+	font-family: 'Conv_BaskervilleMTStd-Regular';
+}
+h3{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 15px;
+	font-family: 'Expletus Sans', cursive;
+	padding: 15px 0;
+	margin: 0;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	text-align:center;
+}
+.lt-ie9 IMG{
+max-width:100%;
+}
+/*======================================*/
+/*-------------- HEADER ---------------*/
+/*=====================================*/
+#header-wrapper{
+	background: rgba(50, 50, 50, 0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC323232,endColorstr=#CC323232);
+	height: 100px;
+}
+.region-header{
+	position:absolute;
+	width:100%;
+	right:0;
+	top:0;
+}
+#leaderboard-wrapper .container{
+	position:relative;
+}
+#leaderboard-wrapper {
+	position: absolute;
+	width:100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	letter-spacing: 0.05em;
+
+}
+#header{
+	position:relative;
+}
+/*-- block search --*/
+#header #block-search-form{
+	position: absolute;
+	right: 75px;
+	top: 53px;
+	z-index: 1;
+}
+#header #block-search-form input[type="search"] {
+	border: 0 none;
+	font-size: 11px;
+	height: 20px;
+	padding: 0 20px 0 5px;
+	width: 140px;
+	background:rgba(138, 127, 103, 0.7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B28A7F67,endColorstr=#B28A7F67);
+	color: #FFF;
+}
+#header #block-search-form input[type="submit"] {
+	position: absolute;
+	background: url("/proyectos.banrepcultural.org/sites/default/files/icon_submit.png") no-repeat;
+	height: 14px;
+	right: 13px;
+	top: 5px;
+	width: 10px;
+	text-indent: -9999px;
+	border: 0px;
+}
+/*-----------*/
+#header .block-logo{
+	width: 30%;
+	height: 80px;
+	float: left;
+	margin: 10px 30px 0 0;
+}
+#header .blockRedesLogo{	
+	float: right;
+	margin: 15px 0px 0px 0;
+	width: 30%;
+}
+#header #block-search-form .block-title{
+	display: none;
+}
+
+#header #block-block-16{
+	position:relative;
+	margin:5px 0 0 0;
+	float:right;
+}
+	{
+	float:right;
+	margin-top: 12px;
+}
+#header #block-block-16 a{
+	text-decoration:none;
+	color:#C5A77D;
+}
+#header #block-block-16 a:hover{
+	color:#C5A77D;
+}
+.minlogo{
+	float: left;
+	margin-top: 6px;
+}
+#header #block-views-destacado-header-block{
+	width: 36%;
+	float: left;
+	margin: 15px 0px 0px 0px;
+}
+.horario{
+	float: left;
+	width: 300px;
+	height:65px;
+	padding: 0 20px;
+	margin: 7px 0 0 0;
+	border-left: 1px solid rgb(115,115,115);
+	border-right: 1px solid rgb(115,115,115);
+	line-height: 13px;
+	color: #FFF;
+	font-family: 'Roboto',sans-serif;
+	font-size: 11px;
+	letter-spacing: 0.05em;
+	display: table-cell;
+  	vertical-align: middle;
+}
+.horario p{
+	margin:0;
+}
+.social-links {
+	float:left;
+	margin-right: 20px;
+	height: 30px;
+	margin-top: 7px;
+	margin-bottom: 25px;
+}
+.social-links ul {
+	overflow: hidden;
+	margin: 0px 0px 22px 30px;
+	padding: 0px;
+	width: 160px;
+	list-style: none;
+}
+.social-links li {
+	float: right;
+	margin: 0 0 0 6px;
+}
+.social-links a {
+	display: block;
+	width: 22px;
+	height: 22px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	text-indent: -10000em;
+	text-decoration: none;
+}
+.social-links a.botom {
+	display: block;
+	width: 116px;
+	height: 20px;
+	background: rgba(175, 147, 147, 0.7);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2AF9393,endColorstr=#B2AF9393);
+	font-weight: 700;
+	text-indent: inherit;
+	color: #FFF !important;
+	text-align: center;
+	line-height: 20px;
+}
+.social-links a.botom:hover {
+	background: rgba(219, 165, 85, 1);
+}
+.social-links li.twitter a {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/links.png) -22px 0px no-repeat;
+}
+.social-links li.twitter a:hover {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/links.png) -22px -23px no-repeat;
+}
+.social-links li.facebook a {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/links.png) 0px 0px no-repeat;
+}
+.social-links li.facebook a:hover {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/links.png) 0px -23px no-repeat;
+}
+.social-links li.google a {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/links.png) -43px 0px no-repeat;
+}
+.social-links li.google a:hover {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/links.png) -43px -23px no-repeat;
+}
+
+
+/*======================================*/
+/*-------------- MENU ------------------*/
+/*=====================================*/
+
+#menu-bar{
+	margin: 0;
+	font-size:13px;
+}
+#nav-wrapper{
+	height: 33px;
+	background: rgba(20, 20, 20, 0.85);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D8141414,endColorstr=#D8141414);
+}
+#block-nice-menus-1{
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+ul.nice-menu ul {
+	border:0;
+}
+.nav li a, .nav ul.menu li a,
+.nav li span, .nav ul.menu li span{
+	padding-left:15px;
+	padding-right:15px;
+}
+ul.nice-menu li{
+	border: none;
+	background: transparent;
+	border-right: 1px solid rgb(70,70,70);
+	height: 33px;
+	display: inline-block;
+}
+ul.nice-menu-down .menuparent a,
+ul.nice-menu-down .menuparent span {
+padding-right: 15px;
+display:block;
+height:33px;
+}
+ul.nice-menu li:first-child{
+	border-left:1px solid rgb(70,70,70);
+}
+ul.nice-menu a,
+ul.nice-menu span{
+	text-decoration: none;
+	color: #C5A77D;
+	display: block;
+	height: 33px;
+	line-height: 33px;
+}
+
+ul.nice-menu li:hover{
+	background: rgba(223, 176, 107, 0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCDFB06B,endColorstr=#CCDFB06B);
+}
+ul.nice-menu-down li.menuparent {
+	background: transparent;
+}
+ul.nice-menu-down li.menuparent:hover {
+ 	background: rgba(223, 176, 107, 0.8);
+ 	
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCDFB06B,endColorstr=#CCDFB06B);
+}
+/*--- segunda lista ---*/
+ul.nice-menu li.menuparent ul{
+	top:33px;
+	background: rgba(35, 35, 35, 0.9);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC282828,endColorstr=#CC282828);
+}
+ul.nice-menu li.menuparent ul li{
+	border-top:1px solid rgb(70,70,70);
+	border-right:none;
+	border-left:none;
+	width: 100%;
+}
+ul.nice-menu li.menuparent ul li a{
+	color: #C5A77D;
+}
+ul.nice-menu li.menuparent ul li a:hover{
+	color: #333;
+}
+ul.nice-menu li.menuparent ul li:hover{
+	background: rgba(223, 176, 107, 0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCDFB06B,endColorstr=#CCDFB06B);
+}	
+ul.nice-menu-down li li.menuparent {
+	background: rgba(40, 40, 40, 0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC282828,endColorstr=#CC282828);
+}
+/* tercera lista */
+ul.nice-menu li.menuparent ul li ul{
+	margin-top:0px;
+}
+ul.nice-menu li.menuparent ul li ul li{
+	width:auto;
+	background: rgba(51, 82, 102, 0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC335266,endColorstr=#CC335266);
+	border-top: 1px solid rgb(141,105,105);
+	border-right:none;
+	border-left:none;
+}
+ul.nice-menu li.menuparent ul li ul li:hover{
+	background: rgba(51, 82, 102, 0.9);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5335266,endColorstr=#E5335266);
+}
+
+/*========================================*/
+/*-------------- HOME --------------------*/
+/*========================================*/
+
+.front #main-content .views-field-body{
+	width: 50%;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 20px;
+}
+.view-inicio .views-row {
+	position: relative;
+}
+/*--- video---*/
+.front .views-field-field-video,
+.front .views-field-field-imagen{
+	/*position: absolute;*/
+	float:right;
+	right: 0;
+	width: 45%;
+}
+.front .videoResponsive{
+	display:none;
+}
+.front .views-field-field-video iframe{
+	width: 414px;
+}
+.front .views-field-nothing-1{
+	clear: both;
+}
+.front .views-field-field-video{
+	/*position: absolute;*/
+	float:right;
+	right: 0;
+	width: 45%;
+}
+body.front.site-name-semana-de-la-guitarra .views-label-field-imagen{
+    text-transform: none;
+    font-size: 20px;
+    padding: 25px 0 15px 0;
+    color: #9b1b2a;
+    font-weight: normal;
+	display:block;
+}
+body.front.site-name-semana-de-la-guitarra .views-label-field-imagen img{
+	border:2px solid #DACBB8;
+}
+/*-------------*/
+/*========================================*/
+/*--------------- FOOTER -----------------*/
+/*========================================*/
+.fortuna{
+	color: #C5A77D;
+}
+#footer-wrapper{
+	position:relative;
+	height: auto;
+	width:100%;
+	background: rgba(50, 50, 50, 0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC323232,endColorstr=#CC323232);
+}
+#footer-wrapper .block{
+	margin-bottom:0;
+}
+footer .block{
+	float: left;
+}
+footer .block, 
+footer h2, 
+footer a{
+	color: #fff;
+}
+#block-block-6{
+	width: auto;
+	margin-left:30px;
+}
+#block-block-8{
+	width: auto;
+}
+#footer p{
+	margin: 0;
+}
+#footer{
+	position:relative;
+}
+#footer-wrapper2{
+	position: relative;
+	width:100%;
+	background: rgba(20, 20, 20, 0.85);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D8141414,endColorstr=#D8141414);
+}
+#footer-wrapper2 a{
+	color:#C5A77D;
+	font-size:11px;
+}
+#footer-wrapper2 a:hover{
+	color:#C5A77D;
+}
+#footer-wrapper2 .block-inner{
+	padding-top:10px;
+}
+#footer2 .footer_links{
+	color: #C5A77D;
+    padding: 10px 0 20px 15px;
+}
+#footer2 .footer_links a{
+	font-size:12px;
+}
+#footer2 .link{
+	display:none;
+}
+#block-system-main {
+	height: 100%;
+}
+/*------ FOOTER HORARIOS -----*/
+.footerHorarios{
+	width:550px;
+	margin:0 0 0 40px;
+	padding:20px 0;
+}
+.footerHorarios .columna1{
+	float: left;
+	width: 45%;
+	margin-right: 5%;
+	text-align: right;
+}
+.footerHorarios .columna2{
+	float: left;
+	width: 50%;
+}
+/*------- FOOTER INFO BANCO -------*/
+.infoBanco{
+	width:100%;
+	color:#cccccc;
+	font-size: 12px;
+	line-height: 16px;
+}
+.columnaUno{
+	padding: 5px 15px;
+	width:21%;
+	float:left;
+}
+.columnaDos{
+	padding: 5px 15px;
+	width:27%;
+	float:left;
+}
+.columnaTres{
+	padding: 5px 15px;
+	width:42%;
+	float:left;
+}
+.footerHorarios{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+	font-size: 10px;
+	line-height: 13px;
+}
+
+/*========================================*/
+/*-------------- EXPOSICION---------------*/
+/*========================================*/
+.view-vista-temas .view-header,
+.view-exposicion .view-header,
+.exposicion .view-header,
+.view-id-expo .view-header{
+	float: left;
+	width: 48%;
+	margin-right:4%;
+}
+
+.view-vista-temas .view-content,
+.view-exposicion .view-content,
+.exposicion .view-content,
+.view-id-expo .view-content{
+	float: left;
+	width: 48%;
+	margin:0 auto;
+}
+.view-vista-temas table,
+.view-exposicion table,
+.exposicion table,
+.view-id-expo table{
+	border:none;
+	float:right;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+	font-size: 11px;
+	line-height: 1.5;
+	margin:0;
+	right:0;
+}
+.view-vista-temas .views-field,
+.view-exposicion .views-field,
+.exposicion .views-field,
+.view-id-expo .views-field{
+	text-align:center;
+}
+.view-vista-temas img,
+.view-exposicion img, 
+.exposicion img,
+.view-id-expo img{
+border: 3px solid rgb(61, 62, 62);
+}
+.view-vista-temas table tbody tr,
+.view-exposicion table tbody tr, 
+.exposicion table tbody tr,
+.view-id-expo table tbody tr{
+	border:0px;
+}
+.view-vista-temas table tbody td,
+.view-exposicion table tbody td,
+.exposicion table tbody td,
+.view-id-expo table tbody td{
+	width:50%;
+	vertical-align:top;
+}
+.view-vista-temas h3,
+.view-exposicion h3, 
+.exposicion h3,
+.view-id-expo h3{
+	text-align:left;
+}
+/*----- responsive grid ------*/
+.exposicion .views-responsive-grid .views-row{
+	display: inline-block;
+  position: relative;
+  min-height: 160px;
+  width:100%;
+    padding-bottom: 5px;
+}
+.exposicion .views-responsive-grid .views-column{
+	width:50%;
+	float:left;
+	vertical-align:top;
+}
+.exposicion .views-responsive-grid .views-row .views-field{
+	text-align:center;
+	padding:0 8px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+	font-size: 11px;
+	line-height: 1.5;
+}
+
+#block-block-14, .footerDos{
+	font-family: 'Roboto', sans-serif;
+}
+.page-node-980 #page-title,
+.page-node-978 #page-title{
+	display: none;
+}
+.page-node-980 #main-content{
+	height:650px;
+}	
+.page-node-978 #main-content{
+	padding: 0;
+	height: 470px;
+	padding-top: 20px;
+}
+.page-node-980 #footer-wrapper2,
+.page-node-980 #footer-wrapper{
+	display: none;
+}
+.page-node-980 .container{
+	max-width: 100% !important;
+}
+
+/*---- resultados búsqueda ----------*/
+.search-results .title{
+	font-size:1em;
+	line-height:1em;
+}
+
+body.section-programe-su-visita-vg .backstretch img{
+	top:0 !important;
+}
+#block-block-12{
+	width: 68px;
+	position: absolute;
+	top: 50%;
+	margin-top: -24px;
+}
+
+
+
+/* altura del sitio no home */
+#main-content{
+	min-height:430px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	background: rgba(12, 12, 12, 0.85);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D80C0C0C,endColorstr=#D80C0C0C);
+	padding:25px 30px;
+	color: #C7BFAB;
+	position:relative;
+	display:inline-block;
+	width:920px;
+}
+#main-content::-webkit-scrollbar {
+    width: 8px;
+}
+#main-content::-moz-scrollbar {
+    width: 8px;
+}
+#main-content::-webkit-scrollbar-thumb{
+	background:#B48E57;
+}
+#main-content::-webkit-scrollbar-thumb:hover{
+	background-color:#958262;
+}
+#main-content::-webkit-scrollbar-thumb:active{
+	background-color:#958262;
+
+}
+a{
+	color: #C5A77D;
+	text-decoration: none;
+}
+
+.page-programacion #block-system-main{
+	width: 200px;
+	float: left;
+	margin-right: 35px;
+}
+#block-views-programacion-block-1{
+	width: 600px;
+	float: left;
+	font-size: 11px;
+	color: #fff;
+}
+
+/* calendario */
+.calendar-calendar .month-view table{
+	font-family: 'Roboto', sans-serif;
+}
+
+.calendar-calendar .mini-day-off{
+	text-align:center;
+}
+.calendar-calendar .mini-day-on{
+	text-align:center;
+}
+.calendar-calendar tr td.today, .calendar-calendar tr.odd td.today, .calendar-calendar tr.even td.today,
+.page-programacion tr.info, tr.even, tr:nth-child(2n+2),
+.calendar-calendar table.mini td.empty,
+.calendar-calendar tr,
+.calendar-calendar th.days{
+	background: transparent;
+}
+.calendar-calendar th.days,
+.page-programacion tbody tr{
+	border: none;
+}
+.calendar-calendar th.days{
+	color: #fff;
+	font-size: 14px;
+}
+.calendar-calendar table a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+#block-views-programacion-block-1 table{
+	border: none;
+	table-layout: fixed;
+	border-collapse: separate;
+	border-spacing: 5px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.05em;
+	font-size:10px;
+	line-height:1.5;
+}
+.page-programacion table, 
+.page-programacion thead, 
+.page-programacion tbody, 
+.page-programacion tr, 
+.page-programacion th, 
+.page-programacion td{
+	border: none;
+}
+#block-views-programacion-block-1 td{
+	background: rgba(0, 0, 0, 0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+}
+.page-programacion table, .page-programacion td, .page-programacion th{
+	vertical-align: top;
+}
+.calendar-calendar table a{
+	font-weight: bold;
+}
+.page-programacion .views-field-title,
+.page-programacion .views-field-title a{
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.page-programacion .view .date-nav-wrapper .date-prev{
+	right: 180px;
+	background: transparent;
+}
+.page-programacion .view .date-nav-wrapper .date-next{
+	background: transparent;	
+}
+.page-programacion .view .date-nav-wrapper .date-prev a,
+.page-programacion .view .date-nav-wrapper .date-next a{
+	display: block;
+	height: 15px;
+	width: 9px;
+	font-size: 0px;
+}
+.page-programacion .view .date-nav-wrapper .date-next a{
+	background: url(../images/right.png);
+	margin-top: -24px;
+}
+.page-programacion .view .date-nav-wrapper .date-prev a{
+	background: url(../images/left.png);
+	margin-top: 3px;
+}
+.page-programacion .view-display-id-page{
+	margin-top: 30px;
+	padding-bottom: 20px;
+	border-bottom:1px solid rgb(88,88,88);
+}
+
+.date-heading h3 a{
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 0.05em;
+}
+.node-type-programaci-n{
+	font-size: 11px;
+}
+.page-programacion .view .date-nav-wrapper .date-nav{
+	border-bottom: 1px solid rgb(88,88,88);
+}
+.node-type-programaci-n .group-left{
+	width: 250px;
+	margin-left: 20px;
+}
+.node-type-programaci-n .group-right{
+	width: 610px;
+}
+.node-type-programaci-n .group-footer{
+	padding-top: 10px;
+	margin-left: 20px;
+}
+.node-type-programaci-n h2.field-label{
+	padding: 0;
+	width: 100px;
+	border: none;
+}
+.node-type-programaci-n section{
+	margin-bottom: 0;
+}
+.page-prensa h2{
+	font-size: 16px;
+	border: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.page-prensa h1#page-title{
+	margin-bottom: 20px;
+}
+.page-prensa .views-row{
+	border-bottom: 1px dotted rgb(88,88,88);
+	margin-bottom: 20px;
+}
+.page-prensa .field-name-body{
+}
+.page-prensa .node{
+	margin-bottom: 0;
+}
+.page-prensa .pager2,
+.pager2{
+	position: absolute;
+	top: 35px;
+	right:30px;
+	font-size: 12px;
+}
+.page-prensa .pager,
+.pager2 a{
+	font-size: 12px;
+}
+.node-type-obra-coleccion{
+	font-size: 12px;
+}
+.node-type-obra-coleccion .group-left{
+	width: 48%;
+	padding: 10px 0;
+}
+.node-type-obra-coleccion .group-right{
+	width: 48%;
+	padding: 10px 0;
+}
+.node-type-obra-coleccion h2.field-label{
+	padding: 0;
+	margin: 0;
+	border: none;
+	font-size: 15px;
+}
+.node-type-obra-coleccion section{
+	margin-bottom: 5px;
+}
+.item-list ul li{
+	margin: 0;
+	width: 140px;
+}
+#field-slideshow-1-carousel{
+	margin-left: 15px;
+}
+#field-slideshow-1-carousel-wrapper{
+	position: relative;
+}
+.carousel-prev{
+	position: absolute;
+	top: 58px;
+	left: -12px;
+	z-index: 5;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: #42525C;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 19px;
+	color: #fff;
+}
+.carousel-next{
+	position: absolute;
+	top: 58px;
+	left: 830px;
+	z-index: 5;
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: #42525C;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 19px;
+	color: #fff;
+}
+
+body.domain--proyectos-banrepcultural-org-jhonna-calle {
+	color:#fff;
+	font-family: 'Univers',sans-serif;
+
+}
+.domain--proyectos-banrepcultural-org-jhonna-calle h1#page-title{
+	color: #fff;
+	font-family: 'Univers',sans-serif;
+	
+}
+.domain--proyectos-banrepcultural-org-jhonna-calle h1,.domain--proyectos-banrepcultural-org-jhonna-calle h2,.domain--proyectos-banrepcultural-org-jhonna-calle h3{
+	color: #fff;
+	font-family: 'Univers',sans-serif;
+}
+.domain--proyectos-banrepcultural-org-jhonna-calle #main-content{
+	color:#fff;
+	font-family: 'Univers',sans-serif;
+    background: rgba(12, 12, 12, 0.59);
+
+
+}
+.domain--proyectos-banrepcultural-org-jhonna-calle #block-nice-menus-11 a{
+	color:#fff;
+	font-family: 'Univers',sans-serif;
+	
+}
+.domain--proyectos-banrepcultural-org-jhonna-calle #block-nice-menus-11 span{
+}
+.domain--proyectos-banrepcultural-org-jhonna-calle #footer-wrapper2 #footer2 #block-block-33 a{
+	color: #fff;
+	font-family: 'Univers',sans-serif;
+
+}
+.domain--proyectos-banrepcultural-org-jhonna-calle ul.nice-menu li:hover {
+    background: rgba(187, 181, 172, 0.8);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCDFB06B,endColorstr=#CCDFB06B);
+}
+.domain--proyectos-banrepcultural-org-jhonna-calle .footerHorarios{
+	width: 700px;
+}
+.domain--proyectos-banrepcultural-org-jhonna-calle .columna3 {
+    padding: 0 40px;
+}
+.domain--proyectos-banrepcultural-org-jhonna-calle #footer-wrapper2 #footer2 #block-block-33 .menuFooter{
+	color:#fff;
+}
+body.site-name-johanna-calle {
+    background: url(images/JC-homefondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_inicio.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/proyectos.banrepcultural.org/sites/default/files/fondos/G-Sacco_inicio.jpg', sizingMethod='scale')";
+}
+footer .block.logoApoyan{
+	margin:10px 0;
+	float: right;
+}
+
+/*========================================*/
+/*----------William Kentridge-------------*/
+/*========================================*/
+
+.site-name-william-kentridge .menu-top-banrep{
+	background: rgba(38,58,70,0.8);
+}
+
+.site-name-william-kentridge #header-wrapper{
+	background: rgba(38,58,70,0.8);
+}
+
+.site-name-william-kentridge #nav-wrapper{
+	background: rgba(22,32,37,0.85);
+}
+
+.site-name-william-kentridge ul.nice-menu a,
+.site-name-william-kentridge ul.nice-menu span{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	height: 33px;
+	line-height: 33px;
+}
+
+.site-name-william-kentridge ul.nice-menu{
+	font-family: 'Roboto',sans-serif;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+.site-name-william-kentridge h2, #page-title{
+    color: #83A4BE;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'bodoniflfbold';
+    padding: 22px 0 5px 0;
+    margin: 0 0 22px 0;
+    border-bottom: 1px solid rgb(90,90,90);
+}
+.site-name-william-kentridge .fortuna{
+	color: #83A4BE;
+}
+
+body.site-name-william-kentridge{
+	font-family: 'Overlock',cursive;
+	font-size: 15px;
+}
+
+.site-name-william-kentridge #main-content{
+	min-height:430px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	background: rgba(12, 12, 12, 0.85);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D80C0C0C,endColorstr=#D80C0C0C);
+	padding:25px 30px;
+	color: #FFF;
+	position:relative;
+	display:inline-block;
+	width:920px;
+}
+
+/*========================================*/
+/*-----------Joan Fontcuberta-------------*/
+/*========================================*/
+
+.site-name-joan-fontcuberta #header-wrapper{
+	background: rgb(224, 223, 218);
+}
+
+body.site-name-joan-fontcuberta{
+	background-image: url(images/pareidolia_fondo_web.jpg);
+}
+.site-name-joan-fontcuberta #menu-bar{
+	font-size: 15px;
+}
+
+
+.site-name-joan-fontcuberta ul.nice-menu li:hover{
+	background: rgba(20, 20, 20, 0.85) none repeat scroll 0 0;
+}
+
+.site-name-joan-fontcuberta h1{
+	color: #C5A77D !important;
+}
+.site-name-joan-fontcuberta .footerHorarios{
+	width: 100%;
+}
+.site-name-joan-fontcuberta .footerHorarios .columna1{
+	width: 46% !important;
+}
+
+.site-name-joan-fontcuberta .horario{
+	line-height: 14px;
+	color: #C5A77D;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 12px;
+	letter-spacing: 0.05em;
+}
+
+/*============================================*/
+/*-----------Museo del oro Nariño-------------*/
+/*============================================*/
+
+.site-name-museo-del-oro-nariño #header-wrapper{
+	background: rgba(0, 93, 108, 0.8);
+}
+.site-name-museo-del-oro-nariño .menu-top-banrep {
+    background: rgba(0, 93, 108, 0.8);
+}
+.site-name-museo-del-oro-nariño #block-views-logos-block img {
+	height: 70px;
+	width: 235px;
+}
+.site-name-museo-del-oro-nariño .horario {
+	border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.site-name-museo-del-oro-nariño #nav-wrapper {
+	background: rgb(0, 93, 108);
+}
+.site-name-museo-del-oro-nariño ul.nice-menu a, ul.nice-menu span {
+	color: #fff;
+}
+.site-name-museo-del-oro-nariño ul.nice-menu li.menuparent ul li {
+    background: rgb(0, 93, 108);
+}
+.site-name-museo-del-oro-nariño ul.nice-menu li.menuparent ul li a {
+ 	color: #fff;
+}
+.site-name-museo-del-oro-nariño ul.nice-menu li.menuparent ul li:hover {
+	background-color: #B29F6B;
+}
+.site-name-museo-del-oro-nariño #footer-wrapper2 {
+	background: rgba(0, 93, 108, 0.8);
+}
+.site-name-museo-del-oro-nariño #footer-wrapper {
+	background: rgb(0, 93, 108);
+}
+.site-name-museo-del-oro-nariño .fortuna {
+	color: #83A4BE; 
+}
+.site-name-museo-del-oro-nariño #main-content {
+	color: #fff;
+}
+.site-name-museo-del-oro-nariño .horario{
+	font-size: 14px;
+	text-align: center;
+}
+@font-face{
+  font-family: "Now";
+  src: url('fonts/fonts-nariño/Now-Black.otf') format('truetype');
+}
+@font-face{
+  font-family: "Paperback";
+  src: url('fonts/fonts-nariño/Paperback12-Italic.otf') format('truetype');
+}
+.site-name-museo-del-oro-nariño h1{
+	font-family: 'Now-Black', sans-serif !important;
+	color: #83A4BE;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+.site-name-museo-del-oro-nariño h2{
+	font-family: 'Now-Bold', sans-serif !important;
+	color: #C5A77D;
+	text-transform: uppercase;
+	font-size: 19px
+}
+.site-name-museo-del-oro-nariño h3{
+	font-family: 'Paperback12-Italic', sans-serif !important;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.site-name-museo-del-oro-nariño p {
+	font-family: 'NowAlt-Light', sans-serif !important;
+}
+.site-name-museo-del-oro-nariño .fortuna {
+	font-family: 'NowAlt-Light', sans-serif;
+}
+.site-name-museo-del-oro-nariño #block-nice-menus-21 a{
+	font-family: 'Now-Light', sans-serif !important;
+}
+.site-name-museo-del-oro-nariño #block-nice-menus-21 span{
+	font-family: 'Now-Light', sans-serif !important;
+}
+.site-name-museo-del-oro-nariño #block-views-1818500f94a9b5dd9c49c11e157cbf08 p{
+	font-size: 11px;
+	line-height: 15px;
+}
+.site-name-museo-del-oro-nariño .region-footer #block-block-34{ 
+    margin-top: 15px;
+}
+.site-name-museo-del-oro-nariño #block-views-1818500f94a9b5dd9c49c11e157cbf08{ 
+	margin-right: auto;
+	margin-left: auto;
+	width: 58%;
+	position: relative;
+	left: 90px;
+}
+.site-name-museo-del-oro-nariño #block-views-1818500f94a9b5dd9c49c11e157cbf08 .contextual-links-wrapper{
+	display: none;
+}
+.site-name-museo-del-oro-nariño .region-footer #block-block-41{ 	
+	display: inline-block;
+	float: right;
+	margin-top: 15px;
+}
+.site-name-museo-del-oro-nariño .museum-mirror{
+	color: #6190F6;
+}
+
+/*======================================*/
+/*----------PIEL DE BAHAREQUE-----------*/
+/*======================================*/
+.site-name-piel-de-bahareque #page-title,
+.site-name-piel-de-bahareque h1,
+.site-name-piel-de-bahareque h2,
+.site-name-piel-de-bahareque h3{
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height:24px;
+	padding:15px 0 5px 0;
+	margin:0 0 22px 0;
+	border-bottom: 1px solid rgb(88,88,88);
+	font-family: 'avenir-lt-std-heavy';
+}
+.site-name-piel-de-bahareque .fortuna{
+	display: none;
+}
+.site-name-piel-de-bahareque #main-content a{
+	color: #9ab3cf;
+}
+.site-name-piel-de-bahareque #main-content table,
+.site-name-piel-de-bahareque #main-content tbody tr,
+.site-name-piel-de-bahareque #main-content tbody{
+	border: none;
+}
+.site-name-piel-de-bahareque #main-content table span{
+	text-decoration: none !important;
+}
+.site-name-piel-de-bahareque #main-content{
+	color: #fff;
+}
+.site-name-piel-de-bahareque p{
+	font-family: 'avenir-lt-std-light';
+}
+.site-name-piel-de-bahareque a{
+	font-family: 'avenir-lt-std-light';
+	color: #FFF;
+}
+.site-name-piel-de-bahareque #nav-wrapper,
+.site-name-piel-de-bahareque ul.nice-menu li.menuparent ul{
+	background: rgba(12, 12, 12, 0.7)
+}
+.site-name-piel-de-bahareque ul.nice-menu a,
+.site-name-piel-de-bahareque ul.nice-menu li.menuparent ul li a{
+	color: #fff;
+}
+.site-name-piel-de-bahareque ul.nice-menu a:hover{
+	color: #000;
+}
+.site-name-piel-de-bahareque ul.nice-menu li:hover{
+	background: rgb(252, 252, 252);
+}
+
+.site-name-piel-de-bahareque ul.nice-menu-down li.menuparent:hover > a {
+    color: #000;
+}
+.site-name-piel-de-bahareque ul.nice-menu-down li.menuparent:hover {
+    background: rgb(255, 255, 255);
+}
+
+.site-name-piel-de-bahareque ul.nice-menu li.menuparent ul li:hover{
+	background: rgb(255, 255, 255);
+}
+.site-name-piel-de-bahareque ul.nice-menu li.menuparent ul li:hover > a{
+	color: #000;
+}
+
+.site-name-piel-de-bahareque .menu-top-banrep{
+	background:none;
+}
+.site-name-piel-de-bahareque #header-wrapper{
+	background:none;
+}
+
+.site-name-piel-de-bahareque .horario{
+	border-left: 1px solid rgb(255,255,255);
+	border-right: 1px solid rgb(255,255,255);
+	line-height: 14px;
+	font-size: 14px;
+	font-family: 'avenir-lt-std-light';
+}
+.site-name-piel-de-bahareque #menu-bar,
+body.site-name-piel-de-bahareque{
+	font-family: 'avenir-lt-std-heavy';
+	font-size: 18px;
+}
+.site-name-piel-de-bahareque #main-content .views-field-body{
+	width: 100%;
+	margin: 0px;
+}
+.site-name-piel-de-bahareque #main-content{
+	background: rgba(12, 12, 12, 0.4);
+}
+.site-name-piel-de-bahareque #footer-wrapper2 a,
+.site-name-piel-de-bahareque #footer-wrapper2 a:hover{
+	color: #fff;
+}
+
+/*======================================*/
+/*----------Y HÉ AQUI LA LUZ------------*/
+/*======================================*/
+
+.site-name-y-hé-aquí-la-luz h1#page-title,
+.site-name-y-hé-aquí-la-luz h2#page-title,
+.site-name-y-hé-aquí-la-luz h3#page-title,
+.site-name-y-hé-aquí-la-luz h1,
+.site-name-y-hé-aquí-la-luz h2,
+.site-name-y-hé-aquí-la-luz h3{
+	font-family: 'jeanlucweb-bold';
+	font-size: 24px;
+	color: #FFF;
+}
+.site-name-y-hé-aquí-la-luz .inicio-wrapper div.fortuna{
+	display: none;
+}
+.site-name-y-hé-aquí-la-luz #main-content{
+	color: #FFF;
+}
+
+.site-name-y-hé-aquí-la-luz {
+	background-image: url(images/fondos/y-he-aqui-la-luz/fondo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.site-name-y-hé-aquí-la-luz #footer-wrapper{
+	background: #000;
+}
+.site-name-y-hé-aquí-la-luz ul.nice-menu a,
+.site-name-y-hé-aquí-la-luz ul.nice-menu span,
+.site-name-y-hé-aquí-la-luz ul.nice-menu li.menuparent ul li a{
+	color: #fff;
+}
+.site-name-y-hé-aquí-la-luz ul.nice-menu a:hover{
+	color: #000;
+}
+.site-name-y-hé-aquí-la-luz ul.nice-menu li:hover{
+	background: #FFF;
+}
+
+.site-name-y-hé-aquí-la-luz ul.nice-menu-down li.menuparent:hover > a,
+.site-name-y-hé-aquí-la-luz ul.nice-menu-down li.menuparent:hover > span{
+    color: #000;
+}
+.site-name-y-hé-aquí-la-luz ul.nice-menu-down li.menuparent:hover {
+    background: rgb(255, 255, 255);
+}
+
+.site-name-y-hé-aquí-la-luz ul.nice-menu li.menuparent ul li:hover{
+	background: rgb(255, 255, 255);
+}
+.site-name-y-hé-aquí-la-luz ul.nice-menu li.menuparent ul li:hover > a{
+	color: #000;
+}
+.site-name-y-hé-aquí-la-luz ul.nice-menu li.menuparent ul{
+	background: rgba(20, 20, 20, 0.85);
+}
+.site-name-y-hé-aquí-la-luz .footerHorarios{
+	width: 100%;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+}
+.site-name-y-hé-aquí-la-luz a{
+	color: #FFF;
+}
+.site-name-y-hé-aquí-la-luz #footer-wrapper2 a{
+	color: #FFF;
+}
+
+/*======================================*/
+/*--------HENRI CARTIER BRESSON---------*/
+/*======================================*/
+
+.site-name-henri-cartier-bresson h1#page-title,
+.site-name-henri-cartier-bresson h2#page-title,
+.site-name-henri-cartier-bresson h3#page-title,
+.site-name-henri-cartier-bresson h1,
+.site-name-henri-cartier-bresson h2,
+.site-name-henri-cartier-bresson h3{
+	font-family: 'AkzidenzGroteskBQ-Super';
+	color: #FFF;
+}
+body.site-name-henri-cartier-bresson{
+	background-image: url(images/fondos/henri-cartier-bresson/fondo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'AkzidenzGroteskBQ-Reg';
+}
+.site-name-henri-cartier-bresson .fortuna{
+	display: none;
+}
+.site-name-henri-cartier-bresson #main-content{
+	color: #fff;
+}
+.site-name-henri-cartier-bresson .horario{
+	font-family: 'AkzidenzGroteskBQ-Reg';
+}
+
+.site-name-henri-cartier-bresson #nav-wrapper{
+	background: rgba(0, 0, 0, 0.9);
+}
+.site-name-henri-cartier-bresson #header-wrapper,
+.site-name-henri-cartier-bresson ul.nice-menu li.menuparent ul{
+	background: rgba(0, 0, 0, 0.8);
+}
+.site-name-henri-cartier-bresson ul.nice-menu a,
+.site-name-henri-cartier-bresson ul.nice-menu span,
+.site-name-henri-cartier-bresson ul.nice-menu li.menuparent ul li a{
+	color: #FFF;
+}
+.site-name-henri-cartier-bresson ul.nice-menu-down li.menuparent:hover > a,
+.site-name-henri-cartier-bresson ul.nice-menu-down li.menuparent:hover > span{
+    color: #000;
+}
+.site-name-henri-cartier-bresson ul.nice-menu-down li.menuparent:hover {
+    background: #FFF;
+}
+.site-name-henri-cartier-bresson ul.nice-menu li.menuparent ul li:hover > a{
+	color: #000;
+}
+.site-name-henri-cartier-bresson ul.nice-menu a:hover{
+	color: #000;
+	background: #FFF;
+}
+.site-name-henri-cartier-bresson .footerHorarios{
+	width: 100%;
+	margin: 0px;
+}
+.site-name-henri-cartier-bresson #footer-wrapper{
+	background: rgb(255, 255, 255);
+}
+.site-name-henri-cartier-bresson #footer-wrapper2{
+	background: rgba(98, 98, 98, 0.7);
+}
+.site-name-henri-cartier-bresson footer .block{
+	color: #000;
+}
+.site-name-henri-cartier-bresson #footer2 .block{
+	color: #000;
+}
+.site-name-henri-cartier-bresson .infoBanco{
+	color: #fff;
+}
+.site-name-henri-cartier-bresson #footer-wrapper2 a,
+.site-name-henri-cartier-bresson #footer-wrapper2 a:hover{
+	color: #fff;
+}
+.site-name-henri-cartier-bresson #footer-wrapper img.logo-footer{
+	float: left;
+	margin: 0 60px 0 60px;
+}
+.site-name-henri-cartier-bresson #footer-wrapper .texto-footer{
+
+}
+@media only screen and (min-width:280px) and (max-width:999px){
+	.site-name-henri-cartier-bresson #header #block-views-logos-block,
+	.site-name-henri-cartier-bresson.mean-container .mean-bar,
+	.site-name-henri-cartier-bresson.mean-container .mean-nav ul li,
+	.site-name-henri-cartier-bresson.mean-container .mean-nav ul li li a{
+		background: rgba(0, 0, 0, 0.8);
+	}
+	.site-name-henri-cartier-bresson.mean-container .mean-nav ul li a:hover{
+		background: #fff;
+		color: #000;
+	}
+	.site-name-henri-cartier-bresson #header #block-views-destacado-header-block{
+		background-image: url(images/fondos/henri-cartier-bresson/fondo-mobile.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	body.site-name-henri-cartier-bresson{
+	background-image: none;
+	}
+	.site-name-henri-cartier-bresson .horario{
+		background: rgba(0, 0, 0, 0.8);
+	}
+	.site-name-henri-cartier-bresson #footer{
+		padding: 0px;
+		width: 100%;
+	}
+	.site-name-henri-cartier-bresson #footer-wrapper img.logo-footer{
+		display:block;
+		margin:auto;
+		float: none;
+	}
+	.site-name-henri-cartier-bresson #footer-wrapper .texto-footer{
+		padding: 10px 30px 0px 30px;
+	}
+}
+/*======================================*/
+/*--------------PARTERÍA----------------*/
+/*======================================*/
+.site-name-partería h1#page-title,
+.site-name-partería h1{
+	font-family: 'Gilroy-Light';
+	color: #d17a78;
+}
+.site-name-partería h2#page-title,
+.site-name-partería h3#page-title,
+.site-name-partería h2,
+.site-name-partería h3{
+	font-family: 'InfoDispSemibold-Roman';
+	color: #d17a78;	
+}
+.site-name-partería #main-content,
+.site-name-partería #main-content a,
+.site-name-partería ul.nice-menu a{
+	color: #FFF;
+	font-family: 'InfoDispRegular-Roman';	
+}
+body.site-name-partería{
+	background-image: url(images/fondos/parteria/fondo.jpg);
+}
+.site-name-partería .fortuna{
+	display: none;
+}
+.site-name-partería{
+	color: #FFF;
+}
+.site-name-partería .menu-top-banrep{
+	background: rgba(247, 187, 186, 0.8);
+}
+.site-name-partería #header-wrapper{
+	background: rgba(247, 187, 186, 0.8);
+}
+.site-name-partería #nav-wrapper,
+.site-name-partería ul.nice-menu li.menuparent ul{
+	background: #E87B79;
+}
+.site-name-partería #footer-wrapper{
+	background: rgba(202, 182, 135, 0.8);
+}
+.site-name-partería #footer-wrapper2{
+	background: #786d51;
+}
+.site-name-partería .horario{
+	font-family: 'InfoDispRegular-Roman';
+	font-size: 14px;
+	line-height: 15px;
+	border-left: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(255, 255, 255);
+}
+.site-name-partería ul.nice-menu li{
+	font-size: 20px;
+	border-right: 1px solid rgb(255, 255, 255);
+}
+.site-name-partería ul.nice-menu a,
+.site-name-partería ul.nice-menu span,
+.site-name-partería ul.nice-menu li.menuparent ul li a{
+	color: #FFF;
+}
+.site-name-partería ul.nice-menu li:hover,
+.site-name-partería ul.nice-menu li.menuparent ul li:hover{
+	background: rgb(202, 182, 135);
+}
+.site-name-partería ul.nice-menu li{
+	border-left: none;
+	border-right: background: 1px solid rgb(202, 182, 135);
+}
+.site-name-partería ul.nice-menu li.menuparent ul li{
+	border-top: none;
+}
+.site-name-partería .infoBanco,
+.site-name-partería #footer-wrapper2 a,
+.site-name-partería #footer-wrapper2 a:hover{
+	color: #FFF;
+}
+.site-name-partería footer .block{
+	color: #FFF;
+}
+/*======================================*/
+/*---------ACPO Radio Sutatenza---------*/
+/*======================================*/
+
+.site-name-acpo-radio-sutatenza h1#page-title,
+.site-name-acpo-radio-sutatenza h2#page-title,
+.site-name-acpo-radio-sutatenza h3#page-title,
+.site-name-acpo-radio-sutatenza h1,
+.site-name-acpo-radio-sutatenza h2,
+.site-name-acpo-radio-sutatenza h3{
+	font-family: 'ArchivoBlack-Regular';
+	color: #29b099;
+	text-transform: none;
+}
+body.site-name-acpo-radio-sutatenza{
+	background-image: url(images/fondos/acpo-radio-sutatenza/fondo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'Heebo-Light';
+}
+.site-name-acpo-radio-sutatenza ul.nice-menu li{
+	font-size: 14px;
+}
+.site-name-acpo-radio-sutatenza #main-content,
+.site-name-acpo-radio-sutatenza #main-content a{
+	color: #FFF;
+}
+.site-name-acpo-radio-sutatenza ul.nice-menu a,
+.site-name-acpo-radio-sutatenza ul.nice-menu span,
+.site-name-acpo-radio-sutatenza ul.nice-menu li.menuparent ul li a{
+	color: #FFF;
+}
+.site-name-acpo-radio-sutatenza ul.nice-menu li:hover,
+.site-name-acpo-radio-sutatenza ul.nice-menu li.menuparent ul li:hover{
+	background: #FFF;
+}
+.site-name-acpo-radio-sutatenza .fortuna{
+	color: #29b099;
+}
+.site-name-acpo-radio-sutatenza .footerHorarios{
+	width: 100%;
+}
+.site-name-acpo-radio-sutatenza .exposicion .view-header{
+	float: none;
+	width: 100%;
+	margin-right: 0px;
+}
+.site-name-acpo-radio-sutatenza .exposicion .view-content{
+	float: none;
+	width: 100%;
+	margin: 0px;
+}
+.site-name-acpo-radio-sutatenza .infoBanco,
+.site-name-acpo-radio-sutatenza #footer-wrapper2 a,
+.site-name-acpo-radio-sutatenza #footer-wrapper2 a:hover{
+	color: #FFF;
+}
+.site-name-acpo-radio-sutatenza ul.nice-menu li.menuparent ul li:hover > a{
+	color: #000;
+}
+.site-name-acpo-radio-sutatenza ul.nice-menu a:hover{
+	color: #000;
+	background: #FFF;
+}
+.site-name-acpo-radio-sutatenza ul.nice-menu-down li.menuparent:hover > a,
+.site-name-acpo-radio-sutatenza ul.nice-menu-down li.menuparent:hover > span{
+    color: #000;
+}
+.site-name-acpo-radio-sutatenza .block-views h2.block-title{
+	margin: 0 0 22px 0;
+}
+
+/*======================================*/
+/*------Nuevos Nombres 2017 - 2018------*/
+/*======================================*/
+
+body.site-name-nuevos-nombres-2017---2018{
+	background-image: url(images/fondos/nuevos-nombres-2017/Nuevos-nombres.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'Heebo-Light';
+}
+.site-name-nuevos-nombres-2017---2018 .social-links li.twitter a {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/links2.png) -22px -1px no-repeat;
+}
+.site-name-nuevos-nombres-2017---2018 .social-links li.twitter a:hover {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/links2.png) -22px -23px no-repeat;
+}
+.site-name-nuevos-nombres-2017---2018 .social-links li.facebook a {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/links2.png) 0px -1px no-repeat;
+}
+.site-name-nuevos-nombres-2017---2018 .social-links li.facebook a:hover {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/links2.png) 0px -23px no-repeat;
+}
+.site-name-nuevos-nombres-2017---2018 .social-links li.google a {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/links2.png) -43px -1px no-repeat;
+}
+.site-name-nuevos-nombres-2017---2018 .social-links li.google a:hover {
+	background: url(/proyectos.banrepcultural.org/sites/default/files/links2.png) -43px -23px no-repeat;
+}
+
+.site-name-nuevos-nombres-2017---2018 .horario{
+	font-family: 'RelatoSansOT-Regular';
+	color: black;
+	font-size: 12px;
+}
+.site-name-nuevos-nombres-2017---2018 #nav-wrapper{
+	background-color: black;
+}
+.site-name-nuevos-nombres-2017---2018 #header-wrapper{
+	background: rgb(255, 255, 255);
+}
+
+.site-name-nuevos-nombres-2017---2018 #main-content{
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.site-name-nuevos-nombres-2017---2018 #footer-wrapper2{
+	background: rgba(0, 0, 0, 0.9);
+}
+.site-name-nuevos-nombres-2017---2018 h1#page-title,
+.site-name-nuevos-nombres-2017---2018 h2#page-title,
+.site-name-nuevos-nombres-2017---2018 h3#page-title,
+.site-name-nuevos-nombres-2017---2018 h1,
+.site-name-nuevos-nombres-2017---2018 h2,
+.site-name-nuevos-nombres-2017---2018 h3{
+	font-family: 'RelatoSansOT-Bold';
+	color: black;
+	text-transform: none;
+	font-size: 28px;
+}
+.site-name-nuevos-nombres-2017---2018 #main-content,
+.site-name-nuevos-nombres-2017---2018 #main-content a{
+	font-family: 'RelatoSansOT-Regular';
+	color: black;
+	font-size: 18px;
+}
+.site-name-nuevos-nombres-2017---2018 ul.nice-menu a,
+.site-name-nuevos-nombres-2017---2018 ul.nice-menu li.menuparent ul li a{
+	color: white;
+	font-size: 16px;
+}
+.site-name-nuevos-nombres-2017---2018 ul.nice-menu li:hover,
+.site-name-nuevos-nombres-2017---2018 ul.nice-menu li.menuparent ul li:hover{
+	background: rgb(255, 255, 255);
+}
+.site-name-nuevos-nombres-2017---2018 ul.nice-menu li:hover > a,
+.site-name-nuevos-nombres-2017---2018 ul.nice-menu li.menuparent ul li:hover > a{
+	color: black;
+}
+.site-name-nuevos-nombres-2017---2018 ul.nice-menu li.menuparent ul{
+	background-color: black;
+}
+.site-name-nuevos-nombres-2017---2018 ul.nice-menu li,
+.site-name-nuevos-nombres-2017---2018 ul.nice-menu li.menuparent ul > li{
+	border: none;
+}
+.site-name-nuevos-nombres-2017---2018 .fortuna{
+	display: none;
+}
+/*======================================*/
+/*-----------los-carpinteros------------*/
+/*======================================*/
+body.site-name-los-carpinteros{
+	background-image: url(images/fondos/los-carpinteros/los-carpinteros.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.site-name-los-carpinteros #header-wrapper{
+	background: rgba(255, 255, 255, 0.6);
+}
+.site-name-los-carpinteros .horario{
+	color: #666;
+}
+.site-name-los-carpinteros #nav-wrapper{
+	background: #213a62;
+}
+.site-name-los-carpinteros ul.nice-menu li{
+	border: none;
+}
+.site-name-los-carpinteros ul.nice-menu li:hover{
+	background: #fff;
+}
+.site-name-los-carpinteros ul.nice-menu a{
+	color: #fff;
+	font-size: 18px;
+}
+.site-name-los-carpinteros ul.nice-menu a:hover{
+	color:  #dd453a;
+}
+.site-name-los-carpinteros ul.nice-menu li.menuparent ul li{
+	background: #213a62;
+	border: none;
+}
+.site-name-los-carpinteros ul.nice-menu li.menuparent ul li:hover{
+	background: #fff;
+}
+.site-name-los-carpinteros ul.nice-menu li.menuparent:hover > a{
+	color:  #dd453a;
+}
+.site-name-los-carpinteros ul.nice-menu li.menuparent ul li a{
+	color: #fff;
+}
+.site-name-los-carpinteros ul.nice-menu li.menuparent ul li a:hover{
+	color:  #dd453a;
+}
+.site-name-los-carpinteros h1#page-title,
+.site-name-los-carpinteros h2#page-title,
+.site-name-los-carpinteros h3#page-title,
+.site-name-los-carpinteros h1,
+.site-name-los-carpinteros h2,
+.site-name-los-carpinteros h3{
+	color: #dd453a;
+}
+.site-name-los-carpinteros #main-content{
+	background: rgba(33, 58, 98, 0.8);
+}
+.site-name-los-carpinteros #main-content,
+.site-name-los-carpinteros #main-content a{
+	color: #fff;
+	font-size: 18px;
+}
+.site-name-los-carpinteros .exposicion .view-content{
+	width: 100%;
+}
+/*======================================*/
+/*----------libretas-de-dibujos---------*/
+/*======================================*/
+body.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica{
+	background-image: url(images/fondos/libretas-de-dibujos/libretas-fondo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica #header-wrapper{
+	background: #006c84;
+}
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica #nav-wrapper{
+	background: #004656;
+}
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica ul.nice-menu li{
+	border: none;
+}
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica ul.nice-menu li:hover{
+	background: #fbf4d5;
+}
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica ul.nice-menu a{
+	color: #fbf4d5;
+}
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica ul.nice-menu a:hover{
+	color:  #006c84;
+}
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica #main-content{
+	background: rgba(0, 0, 0, 0.8);
+}
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica h1#page-title,
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica h2#page-title,
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica h3#page-title,
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica h1,
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica h2,
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica h3{
+	color: #fbf4d5;
+}
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica #main-content,
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica #main-content a{
+	color: white;
+}
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica #footer-wrapper2{
+	background: rgba(0, 0, 0, 0.9);
+}
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica .exposicion .view-content,
+.site-name-libretas-de-dibujos-reencuentros-de-memoria-gráfica .exposicion .view-header{
+	width: 100%;
+}

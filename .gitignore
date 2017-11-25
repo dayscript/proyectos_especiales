@@ -2,6 +2,10 @@
 sites/*/*settings*.php
 
 # Ignore paths that contain generated content.
+clear
+img_portada
+la-vida-del-libertador
+obras-en-alta-resolucion
 files/
 sites/*/files
 sites/*/private

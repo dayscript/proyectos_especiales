@@ -1,0 +1,11 @@
+name = Subfolders Domain
+description = Allows management of subdomains directories without changing or adding any file configuration (.htaccess, sites.php, Alias in Apache config file ...).
+package = Domain Access
+
+dependencies[] = domain
+dependencies[] = domain_settings
+dependencies[] = domain_alias
+dependencies[] = domain_conf
+dependencies[] = domain_content
+
+core = 7.x
