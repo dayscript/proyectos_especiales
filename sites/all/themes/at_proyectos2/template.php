@@ -61,6 +61,9 @@ function at_proyectos2_preprocess_page(&$vars) {
 }
 function at_proyectos2_process_page(&$vars) {
 }
+function at_proyectos2_preprocess_html(&$variables) {
+  drupal_add_css('//fonts.googleapis.com/css?family=Montserrat:400,600', array('group' => CSS_THEME));
+}
 // */
 
 
