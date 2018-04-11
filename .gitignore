@@ -5,7 +5,7 @@ sites/*/*settings*.php
 sites/*/files
 sites/*/private
 
-#Enlaces y directorio imagenes
+# Symlink
 /arquitectura-bahareque-manizales
 /asamblea-nacional-constituyente
 /boletin-cultural
