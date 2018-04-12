@@ -1,46 +1,6 @@
 # Ignore configuration files that may contain sensitive information.
-sites/*/*settings*.php
+sites/*/settings*.php
 
-# Ignore paths that contain generated content.
+# Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
-
-# Symlink
-/arquitectura-bahareque-manizales
-/asamblea-nacional-constituyente
-/boletin-cultural
-/clear
-/cnap
-/contexto-publico-blog
-/durero
-/el-sueno-de-la-razon
-/evidencias-de-una-nacion
-/graciela-sacco
-/henri-cartier-bresson
-/hernan-diaz
-/imagen-regional
-/img_portada
-/joan-fontcuberta
-/johanna-calle
-/la-vida-del-libertador
-/la-voz-humana
-/leo-matiz
-/libretas-de-dibujos
-/los-carpinteros
-/luis-roldan
-/museo-del-oro
-/museo-del-oro-narino
-/museo-del-oro-tairona
-/museo-etnografico
-/nuevos-nombres-2017
-/obras-en-alta-resolucion
-/odenbach
-/otras-formas-de-pago
-/parteria
-/proyecto-paz
-/proyectos.banrepcultural.org
-/radio-sutatenza
-/sady-gonzalez
-/semana-de-la-guitarra
-/victor-grippo
-/william-kentridge
