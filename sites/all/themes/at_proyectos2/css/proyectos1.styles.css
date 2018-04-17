@@ -1846,6 +1846,12 @@ body.site-name-leo-matiz{
 .site-name-leo-matiz #page-title{
 	border-bottom: 0px;
 }
+
+.site-name-leo-matiz a{
+        color: #ba007c;
+        text-decoration: none;
+}
+
 .site-name-leo-matiz h1#page-title,
 .site-name-leo-matiz h2#page-title{
 	color: #ba007c;
@@ -1867,6 +1873,10 @@ body.site-name-leo-matiz{
 }
 .site-name-leo-matiz .view-exposiciones-proyectos .view-content a{
 	color: #000;
+}
+.site-name-leo-matiz .views-field-field-video{
+	right: auto;
+    width: auto;
 }
 .site-name-leo-matiz #footer-wrapper{
 	background: rgba(146, 146, 146, 0.5);

@@ -1,76 +1,110 @@
 /*======================================*/
-/*--------------leo-matiz---------------*/
+/*---------el-sueño-de-la-razon---------*/
 /*======================================*/
-body.domain-proyectos-banrepcultural-org-el-sueño-de-la-razón{
+body.site-name-el-sueño-de-la-razón{
         background-image: url(fondos/sueno-razon-fondo.jpg);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
-        font-family: 'Montserrat', sans-serif !important;
+        font-family: 'Cabin', sans-serif;
 }
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon #header-wrapper{
-        background: rgba(255, 0, 0, 0.5);
+.site-name-el-sueño-de-la-razón a{
+        color: #ec008c;
+        text-decoration: none;
 }
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon .horario{
+.site-name-el-sueño-de-la-razón #header-wrapper{
+        background: rgba(0, 0, 0, 0.6);
+}
+.site-name-el-sueño-de-la-razón .horario{
         border-right: 1px solid rgb(255, 255, 255);
         border-left: 1px solid rgb(255, 255, 255);
-        font-family: 'Montserrat', sans-serif !important;
-        font-weight: 400;
-        font-size: 10px;
-}
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon #nav-wrapper{
-        background: rgb(0, 0, 0);
-}
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon ul.nice-menu li:hover{
-        background: #ba007c;
-}
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon ul .active-trail a.active{
-        color: #ba007c;
-}
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon ul .active-trail a.active:hover{
-        color: #FFF;
-}
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon ul.nice-menu li:first-child{
-        border-left: 1px solid rgb(255, 255, 255);
-}
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon ul.nice-menu li{
-        border-right: 1px solid rgb(255, 255, 255);
-}
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon ul.nice-menu a{
-        color: #FFF;
+        font-family: 'Cabin', sans-serif;
         font-size: 12px;
 }
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon #main-content{
-        background: rgba(255, 255, 255, 0.6);
+.site-name-el-sueño-de-la-razón #nav-wrapper{
+        background: #FFF;
 }
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon #page-title{
+.site-name-el-sueño-de-la-razón ul.nice-menu li:hover{
+        background: #000;
+}
+.site-name-el-sueño-de-la-razón ul.nice-menu li:hover a{
+        color: #fff200;
+}
+.site-name-el-sueño-de-la-razón ul .active-trail a.active{
+        color: #fff200;
+	background: #000;
+}
+.site-name-el-sueño-de-la-razón ul .active-trail a.active:hover{
+        color: #fff200;
+	background: #fff;
+}
+.site-name-el-sueño-de-la-razón ul.nice-menu li:first-child{
+        border-left: 1px solid rgb(0, 0, 0);
+}
+.site-name-el-sueño-de-la-razón ul.nice-menu li{
+        border-right: 1px solid rgb(0, 0, 0);
+}
+.site-name-el-sueño-de-la-razón ul.nice-menu a{
+        color: #000;
+        font-size: 16px;
+        font-family: 'Oswald', sans-serif;
+}
+.site-name-el-sueño-de-la-razón ul.nice-menu a.active:hover{
+        color: #fff200;
+}
+.site-name-el-sueño-de-la-razón #main-content{
+        background: rgba(225, 244, 253, 0.65);
+}
+.site-name-el-sueño-de-la-razón #main-content #content a{
+        color: #ec008c;
+}
+.site-name-el-sueño-de-la-razón #page-title{
         border-bottom: 0px;
 }
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon h1#page-title,
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon h2#page-title{
-        color: #ba007c;
-        font-family: 'Montserrat', sans-serif !important;
+.site-name-el-sueño-de-la-razón h1#page-title,
+.site-name-el-sueño-de-la-razón h2#page-title,
+.site-name-el-sueño-de-la-razón h3#page-title,
+.site-name-el-sueño-de-la-razón h4#page-title{
+        color: #58595b;
+        font-family: 'Oswald', sans-serif;
 }
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon h3#page-title{
-        font-family: 'Montserrat', sans-serif !important;
-}
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon #main-content{
+.site-name-el-sueño-de-la-razón #main-content{
         color: #000;
-        font-family: 'Montserrat', sans-serif !important;
-        font-weight: 400;
+        font-family: 'Cabin', sans-serif;
 }
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon div.fortuna{
-        color: #000;
-        font-size: 30px;
-        margin: 0 0 15px 0;
-        font-family: 'Montserrat', sans-serif !important;
+.site-name-el-sueño-de-la-razón div.fortuna{
+        font-size: 20px;
+        color: #58595b;
+        font-family: 'Oswald', sans-serif;
 }
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon .view-exposiciones-proyectos .view-content a{
+.site-name-el-sueño-de-la-razón .view-exposiciones-proyectos .view-content a{
         color: #000;
 }
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon #footer-wrapper{
+.site-name-el-sueño-de-la-razón #footer-wrapper{
         background: rgba(146, 146, 146, 0.5);
 }
-.domain-proyectos-banrepcultural-org-el-sueno-de-la-razon #footer-wrapper2{
+.site-name-el-sueño-de-la-razón #footer-wrapper2{
         background: rgba(0, 0, 0, 0.5);
+}
+/*======================================*/
+/*-----------seccion galeria------------*/
+/*======================================*/
+.site-name-el-sueño-de-la-razón .node-obra-coleccion h2.field-label{
+        color: #58595b;
+        font-family: 'Oswald', sans-serif;
+}
+.site-name-el-sueño-de-la-razón .node-obra-coleccion .contextual-links-region{
+        color: #000;
+}
+.site-name-el-sueño-de-la-razón .node-obra-coleccion ul.field-items a{
+        color: #ec008c
+}
+/*======================================*/
+/*---------------footer2----------------*/
+/*======================================*/
+.site-name-el-sueño-de-la-razón #footer-wrapper2 a{
+        color: #ec008c;
+}
+.site-name-el-sueño-de-la-razón #footer-wrapper2 a:hover{
+        color: #ffffff;
 }

@@ -68,6 +68,60 @@
 	    http.open('HEAD', url, false);
 	    http.send();
 	    return http.status!=404;
-	}		
+	}
+	if(typeof pathArray[1] == "string" && pathArray[1] == "leo-matiz"){
+		var home = jQuery('.views-field-field-video');
+		if(home.length)	{
+			var windowHeight = jQuery(window).height();
+			var parent = jQuery('#main-content');
+			console.log(parent);
+			if (parent.length) {
+				var parentAbsoluteTop = parent.offset().top;
+				var parentAbsoluteBottom = parentAbsoluteTop + parent.height();
+				var topStop = parentAbsoluteTop + home.height();
+				jQuery(window).scroll(function(event) {
+					var windowBottom = jQuery(window).scrollTop() + windowHeight;
+					if (windowBottom >= topStop && windowBottom <= parentAbsoluteBottom) 
+					home.css({
+						position: 'fixed',
+						display: 'inline-block',
+						bottom: 'auto'
+					});
+				else
+					home.css({
+						position: 'absolute',
+						bottom: '100px'
+					});
+				});
+			}
+		}
+	}
+	if(typeof pathArray[1] == "string" && pathArray[1] == "el-sueno-de-la-razon"){
+		var home = jQuery('.views-field-field-video');
+		if(home.length)	{
+			var windowHeight = jQuery(window).height();
+			var parent = jQuery('#main-content');
+			console.log(parent);
+			if (parent.length) {
+				var parentAbsoluteTop = parent.offset().top;
+				var parentAbsoluteBottom = parentAbsoluteTop + parent.height();
+				var topStop = parentAbsoluteTop + home.height();
+				jQuery(window).scroll(function(event) {
+					var windowBottom = jQuery(window).scrollTop() + windowHeight;
+					if (windowBottom >= topStop && windowBottom <= parentAbsoluteBottom) 
+					home.css({
+						position: 'fixed',
+						display: 'inline-block',
+						bottom: '100px'
+					});
+				else
+					home.css({
+						position: 'absolute',
+						bottom: '100px'
+					});
+				});
+			}
+		}
+	}
 	});// fin document ready
 })(jQuery, Drupal, this, this.document);

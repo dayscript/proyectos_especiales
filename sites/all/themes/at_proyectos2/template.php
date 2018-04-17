@@ -63,6 +63,8 @@ function at_proyectos2_process_page(&$vars) {
 }
 function at_proyectos2_preprocess_html(&$variables) {
   drupal_add_css('//fonts.googleapis.com/css?family=Montserrat:400,600', array('group' => CSS_THEME));
+  drupal_add_css('//fonts.googleapis.com/css?family=Cabin', array('group' => CSS_THEME));  //Cabin regular
+  drupal_add_css('//fonts.googleapis.com/css?family=Oswald:600', array('group' => CSS_THEME));  //Oswald semi-bold
 }
 // */
 
