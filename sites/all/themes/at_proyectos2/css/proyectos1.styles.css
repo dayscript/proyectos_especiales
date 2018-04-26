@@ -1878,6 +1878,16 @@ body.site-name-leo-matiz{
 	right: auto;
     width: auto;
 }
+.site-name-leo-matiz .exposicion .view-content{
+	position: fixed;
+    width: 475px;
+    display: inline-block;
+}
+.site-name-leo-matiz .exposicion .gallery-bottom{
+	position: absolute;
+    bottom: 100px;
+    width: 475px;
+}
 .site-name-leo-matiz #footer-wrapper{
 	background: rgba(146, 146, 146, 0.5);
 }

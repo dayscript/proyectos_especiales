@@ -87,8 +87,25 @@ body.site-name-el-sueño-de-la-razón{
         background: rgba(0, 0, 0, 0.5);
 }
 /*======================================*/
+/*--------------video home--------------*/
+/*======================================*/
+.front.site-name-el-sueño-de-la-razón .views-field-field-video{
+        right: auto;
+        width: auto;
+}
+/*======================================*/
 /*-----------seccion galeria------------*/
 /*======================================*/
+.site-name-el-sueño-de-la-razón .exposicion .view-content{
+        position: fixed;
+        width: 475px;
+        display: inline-block;
+}
+.site-name-el-sueño-de-la-razón .exposicion .gallery-bottom{
+        position: absolute;
+        bottom: 100px;
+        width: 475px;
+}
 .site-name-el-sueño-de-la-razón .node-obra-coleccion h2.field-label{
         color: #58595b;
         font-family: 'Oswald', sans-serif;

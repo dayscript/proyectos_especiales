@@ -95,6 +95,26 @@
 				});
 			}
 		}
+		var gallery = jQuery('#main-content .exposicion .view-content');
+		if(gallery.length)	{
+			var windowHeight = jQuery(window).height();
+			var parent = jQuery('#main-content');
+			console.log(parent);
+			if (parent.length) {
+				var parentAbsoluteTop = parent.offset().top;
+				var parentAbsoluteBottom = parentAbsoluteTop + parent.height();
+				var topStop = parentAbsoluteTop + gallery.height();
+				jQuery(window).scroll(function(event) {
+					var windowBottom = jQuery(window).scrollTop() + windowHeight;
+					if (windowBottom >= topStop && windowBottom <= parentAbsoluteBottom){	
+    					jQuery('#main-content .exposicion .view-content').removeClass('gallery-bottom');
+					}
+				else{
+						jQuery('#main-content .exposicion .view-content').addClass('gallery-bottom');
+					}
+				});
+			}
+		}
 	}
 	if(typeof pathArray[1] == "string" && pathArray[1] == "el-sueno-de-la-razon"){
 		var home = jQuery('.views-field-field-video');
@@ -112,13 +132,33 @@
 					home.css({
 						position: 'fixed',
 						display: 'inline-block',
-						bottom: '100px'
+						bottom: 'auto'
 					});
 				else
 					home.css({
 						position: 'absolute',
 						bottom: '100px'
 					});
+				});
+			}
+		}
+		var gallery = jQuery('#main-content .exposicion .view-content');
+		if(gallery.length)	{
+			var windowHeight = jQuery(window).height();
+			var parent = jQuery('#main-content');
+			console.log(parent);
+			if (parent.length) {
+				var parentAbsoluteTop = parent.offset().top;
+				var parentAbsoluteBottom = parentAbsoluteTop + parent.height();
+				var topStop = parentAbsoluteTop + gallery.height();
+				jQuery(window).scroll(function(event) {
+					var windowBottom = jQuery(window).scrollTop() + windowHeight;
+					if (windowBottom >= topStop && windowBottom <= parentAbsoluteBottom){	
+    					jQuery('#main-content .exposicion .view-content').removeClass('gallery-bottom');
+					}
+				else{
+						jQuery('#main-content .exposicion .view-content').addClass('gallery-bottom');
+					}
 				});
 			}
 		}
